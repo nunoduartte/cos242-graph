@@ -1,0 +1,12 @@
+[1] list: memory ~ 1221.5 MB (total RSS 1234.5 MB)
+[2] BFS: mean time = 5.145698 s (100 searches)
+[3] DFS: mean time = 10.625415 s (100 searches)
+[4] BFS root 1: parent(10)=-1, parent(20)=-1, parent(30)=-1
+[4] DFS root 1: parent(10)=-1, parent(20)=-1, parent(30)=-1
+[4] BFS root 2: parent(10)=1677854, parent(20)=3607226, parent(30)=3898629
+[4] DFS root 2: parent(10)=381031, parent(20)=431008, parent(30)=446011
+[4] BFS root 3: parent(10)=-1, parent(20)=-1, parent(30)=-1
+[4] DFS root 3: parent(10)=-1, parent(20)=-1, parent(30)=-1
+[5] Distances: {'10-20': 5, '10-30': 5, '20-30': 5}
+[6] Components: 5; largest=2500000; smallest=156250
+[7] Approximate diameter >= 10 (42.47 s)

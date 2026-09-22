@@ -1,0 +1,13 @@
+graph,representation,status,n,m,memory_mb,searches,bfs_mean_s,dfs_mean_s,components,largest,smallest,diameter_approx,diameter_approx_s,diameter_exact,diameter_exact_s,stages_done
+1,list,ok,10000,109921,3.3046875,100,0.00957751664999705,0.012212732159996449,1,10000,10000,4,0.10409734300264972,5,87.562502494,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx', '7b_diameter_exact']"
+1,matrix,ok,10000,109921,96.51171875,100,0.042465011579997734,0.049877892229997084,1,10000,10000,4,0.4387286330002098,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+2,list,ok,49948,1298710,24.9375,100,0.03010559055000158,0.03786250105999898,10,25000,48,20,1.3983996590031893,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+2,matrix,ok,49948,1298710,2384.38671875,100,0.17533544283999616,0.19639736741999514,10,25000,48,20,3.0286879649993352,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+3,list,ok,375000,765615,41.42578125,100,0.15878551211999364,0.42287162399999945,2,250000,125000,22,7.067309186000784,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+3,matrix,skipped: matrix needs ~131.0 GiB,375000,,,,,,,,,,,,,
+4,list,ok,375000,8186986,160.6875,100,0.42226945514000364,1.1205284660100006,2,250000,125000,5,9.18171036700005,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+4,matrix,skipped: matrix needs ~131.0 GiB,375000,,,,,,,,,,,,,
+5,list,ok,4843750,13168911,600.328125,100,2.6414462698900025,5.569249426369997,5,2500000,156250,59,137.5018342479998,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+5,matrix,skipped: matrix needs ~21850.6 GiB,4843750,,,,,,,,,,,,,
+6,list,ok,4843750,46469479,1221.546875,100,5.145698209930006,10.62541472664001,5,2500000,156250,19,184.56672489599805,,,"['1_load_memory', '2_bfs_time', '3_dfs_time', '4_parents', '5_distances', '6_components', '6b_summary_file', '7_diameter_approx']"
+6,matrix,skipped: matrix needs ~21850.6 GiB,4843750,,,,,,,,,,,,,

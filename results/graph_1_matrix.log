@@ -1,0 +1,12 @@
+[1] matrix: memory ~ 96.5 MB (total RSS 109.5 MB)
+[2] BFS: mean time = 0.042465 s (100 searches)
+[3] DFS: mean time = 0.049878 s (100 searches)
+[4] BFS root 1: parent(10)=2042, parent(20)=8382, parent(30)=2394
+[4] DFS root 1: parent(10)=709, parent(20)=666, parent(30)=86
+[4] BFS root 2: parent(10)=8935, parent(20)=9071, parent(30)=3555
+[4] DFS root 2: parent(10)=709, parent(20)=666, parent(30)=86
+[4] BFS root 3: parent(10)=7685, parent(20)=9543, parent(30)=5783
+[4] DFS root 3: parent(10)=709, parent(20)=666, parent(30)=86
+[5] Distances: {'10-20': 3, '10-30': 3, '20-30': 4}
+[6] Components: 1; largest=10000; smallest=10000
+[7] Approximate diameter >= 4 (0.44 s)

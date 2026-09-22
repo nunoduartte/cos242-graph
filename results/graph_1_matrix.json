@@ -1,0 +1,75 @@
+{
+  "file": "../grafo_1.txt",
+  "representation": "matrix",
+  "stages_done": [
+    "1_load_memory",
+    "2_bfs_time",
+    "3_dfs_time",
+    "4_parents",
+    "5_distances",
+    "6_components",
+    "6b_summary_file",
+    "7_diameter_approx"
+  ],
+  "stage_running": null,
+  "n": 10000,
+  "m": 109921,
+  "memory_mb": 96.51171875,
+  "rss_total_mb": 109.46875,
+  "stage_seconds": {
+    "1_load_memory": 0.12439243399967381,
+    "2_bfs_time": 4.247272465000606,
+    "3_dfs_time": 4.991741474999799,
+    "4_parents": 0.33482936000018526,
+    "5_distances": 0.13345537799978047,
+    "6_components": 0.04420506299993576,
+    "6b_summary_file": 0.03246642299927771,
+    "7_diameter_approx": 0.4387286330002098
+  },
+  "bfs_mean_s": 0.042465011579997734,
+  "searches": 100,
+  "dfs_mean_s": 0.049877892229997084,
+  "parents": {
+    "BFS root 1": {
+      "10": 2042,
+      "20": 8382,
+      "30": 2394
+    },
+    "DFS root 1": {
+      "10": 709,
+      "20": 666,
+      "30": 86
+    },
+    "BFS root 2": {
+      "10": 8935,
+      "20": 9071,
+      "30": 3555
+    },
+    "DFS root 2": {
+      "10": 709,
+      "20": 666,
+      "30": 86
+    },
+    "BFS root 3": {
+      "10": 7685,
+      "20": 9543,
+      "30": 5783
+    },
+    "DFS root 3": {
+      "10": 709,
+      "20": 666,
+      "30": 86
+    }
+  },
+  "distances": {
+    "10-20": 3,
+    "10-30": 3,
+    "20-30": 4
+  },
+  "components": 1,
+  "largest": 10000,
+  "smallest": 10000,
+  "diameter_approx": 4,
+  "diameter_approx_s": 0.4387286330002098,
+  "finished": true
+}

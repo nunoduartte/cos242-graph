@@ -1,0 +1,22 @@
+[graph_1] loading...
+[graph_1] list: old=4 new=4
+[graph_1] matrix: old=4 new=4
+[graph_1] diameter >= 4 (0.1 s)
+[graph_2] loading...
+[graph_2] list: old=4 new=20
+[graph_2] matrix: old=4 new=20
+[graph_2] diameter >= 20 (1.4 s)
+[graph_3] loading...
+[graph_3] list: old=22 new=22
+[graph_3] diameter >= 22 (7.1 s)
+[graph_4] loading...
+[graph_4] list: old=5 new=5
+[graph_4] diameter >= 5 (9.2 s)
+[graph_5] loading...
+[graph_5] list: old=36 new=59
+[graph_5] diameter >= 59 (137.5 s)
+[graph_6] loading...
+[graph_6] list: old=10 new=19
+[graph_6] diameter >= 19 (184.6 s)
+
+Done. Send me results/results.md

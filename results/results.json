@@ -1,0 +1,646 @@
+[
+  {
+    "graph": 1,
+    "representation": "list",
+    "n": 10000,
+    "file": "../grafo_1.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx",
+      "7b_diameter_exact"
+    ],
+    "stage_running": null,
+    "m": 109921,
+    "memory_mb": 3.3046875,
+    "rss_total_mb": 16.30078125,
+    "stage_seconds": {
+      "1_load_memory": 0.13217032099964854,
+      "2_bfs_time": 0.958382511000309,
+      "3_dfs_time": 1.225190059999477,
+      "4_parents": 0.09954974099946412,
+      "5_distances": 0.033751209000001836,
+      "6_components": 0.010894617000303697,
+      "6b_summary_file": 0.004444847999366175,
+      "7_diameter_approx": 0.11270024100031151,
+      "7b_diameter_exact": 87.562502494
+    },
+    "bfs_mean_s": 0.00957751664999705,
+    "searches": 100,
+    "dfs_mean_s": 0.012212732159996449,
+    "parents": {
+      "BFS root 1": {
+        "10": 2042,
+        "20": 8382,
+        "30": 2394
+      },
+      "DFS root 1": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      },
+      "BFS root 2": {
+        "10": 8935,
+        "20": 9071,
+        "30": 3555
+      },
+      "DFS root 2": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      },
+      "BFS root 3": {
+        "10": 7685,
+        "20": 9543,
+        "30": 5783
+      },
+      "DFS root 3": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      }
+    },
+    "distances": {
+      "10-20": 3,
+      "10-30": 3,
+      "20-30": 4
+    },
+    "components": 1,
+    "largest": 10000,
+    "smallest": 10000,
+    "diameter_approx": 4,
+    "diameter_approx_s": 0.10409734300264972,
+    "diameter_exact": 5,
+    "diameter_exact_s": 87.562502494,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 1,
+    "representation": "matrix",
+    "n": 10000,
+    "file": "../grafo_1.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 109921,
+    "memory_mb": 96.51171875,
+    "rss_total_mb": 109.46875,
+    "stage_seconds": {
+      "1_load_memory": 0.12439243399967381,
+      "2_bfs_time": 4.247272465000606,
+      "3_dfs_time": 4.991741474999799,
+      "4_parents": 0.33482936000018526,
+      "5_distances": 0.13345537799978047,
+      "6_components": 0.04420506299993576,
+      "6b_summary_file": 0.03246642299927771,
+      "7_diameter_approx": 0.4387286330002098
+    },
+    "bfs_mean_s": 0.042465011579997734,
+    "searches": 100,
+    "dfs_mean_s": 0.049877892229997084,
+    "parents": {
+      "BFS root 1": {
+        "10": 2042,
+        "20": 8382,
+        "30": 2394
+      },
+      "DFS root 1": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      },
+      "BFS root 2": {
+        "10": 8935,
+        "20": 9071,
+        "30": 3555
+      },
+      "DFS root 2": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      },
+      "BFS root 3": {
+        "10": 7685,
+        "20": 9543,
+        "30": 5783
+      },
+      "DFS root 3": {
+        "10": 709,
+        "20": 666,
+        "30": 86
+      }
+    },
+    "distances": {
+      "10-20": 3,
+      "10-30": 3,
+      "20-30": 4
+    },
+    "components": 1,
+    "largest": 10000,
+    "smallest": 10000,
+    "diameter_approx": 4,
+    "diameter_approx_s": 0.4387286330002098,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 2,
+    "representation": "list",
+    "n": 49948,
+    "file": "../grafo_2.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 1298710,
+    "memory_mb": 24.9375,
+    "rss_total_mb": 37.88671875,
+    "stage_seconds": {
+      "1_load_memory": 1.45541771399985,
+      "2_bfs_time": 3.014764610000384,
+      "3_dfs_time": 3.7904519450003136,
+      "4_parents": 0.26557954700001574,
+      "5_distances": 0.15053933599938318,
+      "6_components": 0.07959943100013334,
+      "6b_summary_file": 0.017819878999944194,
+      "7_diameter_approx": 0.5405799059999481
+    },
+    "bfs_mean_s": 0.03010559055000158,
+    "searches": 100,
+    "dfs_mean_s": 0.03786250105999898,
+    "parents": {
+      "BFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 2": {
+        "10": 1351,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 2": {
+        "10": 3946,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 3": {
+        "10": -1,
+        "20": 46738,
+        "30": 12999
+      },
+      "DFS root 3": {
+        "10": -1,
+        "20": 217,
+        "30": 3513
+      }
+    },
+    "distances": {
+      "10-20": -1,
+      "10-30": -1,
+      "20-30": 3
+    },
+    "components": 10,
+    "largest": 25000,
+    "smallest": 48,
+    "diameter_approx": 20,
+    "diameter_approx_s": 1.3983996590031893,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 2,
+    "representation": "matrix",
+    "n": 49948,
+    "file": "../grafo_2.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 1298710,
+    "memory_mb": 2384.38671875,
+    "rss_total_mb": 2397.34765625,
+    "stage_seconds": {
+      "1_load_memory": 1.8939006339996922,
+      "2_bfs_time": 17.53771850800058,
+      "3_dfs_time": 19.660615865999716,
+      "4_parents": 1.0941685849993519,
+      "5_distances": 0.8413446419999673,
+      "6_components": 0.5315188829999897,
+      "6b_summary_file": 0.6568290750001324,
+      "7_diameter_approx": 3.0286879649993352
+    },
+    "bfs_mean_s": 0.17533544283999616,
+    "searches": 100,
+    "dfs_mean_s": 0.19639736741999514,
+    "parents": {
+      "BFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 2": {
+        "10": 1351,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 2": {
+        "10": 3946,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 3": {
+        "10": -1,
+        "20": 46738,
+        "30": 12999
+      },
+      "DFS root 3": {
+        "10": -1,
+        "20": 217,
+        "30": 3513
+      }
+    },
+    "distances": {
+      "10-20": -1,
+      "10-30": -1,
+      "20-30": 3
+    },
+    "components": 10,
+    "largest": 25000,
+    "smallest": 48,
+    "diameter_approx": 20,
+    "diameter_approx_s": 3.0286879649993352,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 3,
+    "representation": "list",
+    "n": 375000,
+    "file": "../grafo_3.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 765615,
+    "memory_mb": 41.42578125,
+    "rss_total_mb": 54.3828125,
+    "stage_seconds": {
+      "1_load_memory": 1.2735032259997752,
+      "2_bfs_time": 15.882404193000184,
+      "3_dfs_time": 42.320327664000615,
+      "4_parents": 2.4117725409996638,
+      "5_distances": 0.636647665000055,
+      "6_components": 0.23790283600010298,
+      "6b_summary_file": 0.16126291799992032,
+      "7_diameter_approx": 2.669603556999391
+    },
+    "bfs_mean_s": 0.15878551211999364,
+    "searches": 100,
+    "dfs_mean_s": 0.42287162399999945,
+    "parents": {
+      "BFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": 141597
+      },
+      "DFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": 141597
+      },
+      "BFS root 2": {
+        "10": 158403,
+        "20": 75471,
+        "30": -1
+      },
+      "DFS root 2": {
+        "10": 192218,
+        "20": 141526,
+        "30": -1
+      },
+      "BFS root 3": {
+        "10": 158403,
+        "20": 319691,
+        "30": -1
+      },
+      "DFS root 3": {
+        "10": 106718,
+        "20": 141526,
+        "30": -1
+      }
+    },
+    "distances": {
+      "10-20": 9,
+      "10-30": -1,
+      "20-30": -1
+    },
+    "components": 2,
+    "largest": 250000,
+    "smallest": 125000,
+    "diameter_approx": 22,
+    "diameter_approx_s": 7.067309186000784,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 3,
+    "representation": "matrix",
+    "n": 375000,
+    "status": "skipped: matrix needs ~131.0 GiB"
+  },
+  {
+    "graph": 4,
+    "representation": "list",
+    "n": 375000,
+    "file": "../grafo_4.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 8186986,
+    "memory_mb": 160.6875,
+    "rss_total_mb": 173.640625,
+    "stage_seconds": {
+      "1_load_memory": 11.31466988899956,
+      "2_bfs_time": 42.2313950100006,
+      "3_dfs_time": 112.08566346099997,
+      "4_parents": 3.673119482000402,
+      "5_distances": 1.6433924000002662,
+      "6_components": 0.5822977420002644,
+      "6b_summary_file": 0.16101383400018676,
+      "7_diameter_approx": 4.252430716999697
+    },
+    "bfs_mean_s": 0.42226945514000364,
+    "searches": 100,
+    "dfs_mean_s": 1.1205284660100006,
+    "parents": {
+      "BFS root 1": {
+        "10": 243865,
+        "20": 370783,
+        "30": 136244
+      },
+      "DFS root 1": {
+        "10": 12269,
+        "20": 10738,
+        "30": 1531
+      },
+      "BFS root 2": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 2": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 3": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 3": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      }
+    },
+    "distances": {
+      "10-20": 4,
+      "10-30": 3,
+      "20-30": 4
+    },
+    "components": 2,
+    "largest": 250000,
+    "smallest": 125000,
+    "diameter_approx": 5,
+    "diameter_approx_s": 9.18171036700005,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 4,
+    "representation": "matrix",
+    "n": 375000,
+    "status": "skipped: matrix needs ~131.0 GiB"
+  },
+  {
+    "graph": 5,
+    "representation": "list",
+    "n": 4843750,
+    "file": "../grafo_5.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 13168911,
+    "memory_mb": 600.328125,
+    "rss_total_mb": 613.3203125,
+    "stage_seconds": {
+      "1_load_memory": 24.986738997999964,
+      "2_bfs_time": 264.1660014119998,
+      "3_dfs_time": 556.9455116859999,
+      "4_parents": 32.24281207199965,
+      "5_distances": 9.335081276999517,
+      "6_components": 4.404398152000795,
+      "6b_summary_file": 2.7627311669994015,
+      "7_diameter_approx": 26.320051837999927
+    },
+    "bfs_mean_s": 2.6414462698900025,
+    "searches": 100,
+    "dfs_mean_s": 5.569249426369997,
+    "parents": {
+      "BFS root 1": {
+        "10": 1888350,
+        "20": -1,
+        "30": 2502539
+      },
+      "DFS root 1": {
+        "10": 1888350,
+        "20": -1,
+        "30": 191713
+      },
+      "BFS root 2": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 2": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 3": {
+        "10": 1888350,
+        "20": -1,
+        "30": 191713
+      },
+      "DFS root 3": {
+        "10": 1888350,
+        "20": -1,
+        "30": 2502539
+      }
+    },
+    "distances": {
+      "10-20": -1,
+      "10-30": 9,
+      "20-30": -1
+    },
+    "components": 5,
+    "largest": 2500000,
+    "smallest": 156250,
+    "diameter_approx": 59,
+    "diameter_approx_s": 137.5018342479998,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 5,
+    "representation": "matrix",
+    "n": 4843750,
+    "status": "skipped: matrix needs ~21850.6 GiB"
+  },
+  {
+    "graph": 6,
+    "representation": "list",
+    "n": 4843750,
+    "file": "../grafo_6.txt",
+    "stages_done": [
+      "1_load_memory",
+      "2_bfs_time",
+      "3_dfs_time",
+      "4_parents",
+      "5_distances",
+      "6_components",
+      "6b_summary_file",
+      "7_diameter_approx"
+    ],
+    "stage_running": null,
+    "m": 46469479,
+    "memory_mb": 1221.546875,
+    "rss_total_mb": 1234.54296875,
+    "stage_seconds": {
+      "1_load_memory": 78.65990545400018,
+      "2_bfs_time": 514.5735199219998,
+      "3_dfs_time": 1062.5616439450005,
+      "4_parents": 51.32215414200073,
+      "5_distances": 27.339199862000896,
+      "6_components": 6.440877304999958,
+      "6b_summary_file": 2.756619759999012,
+      "7_diameter_approx": 42.47278126299898
+    },
+    "bfs_mean_s": 5.145698209930006,
+    "searches": 100,
+    "dfs_mean_s": 10.62541472664001,
+    "parents": {
+      "BFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 1": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "BFS root 2": {
+        "10": 1677854,
+        "20": 3607226,
+        "30": 3898629
+      },
+      "DFS root 2": {
+        "10": 381031,
+        "20": 431008,
+        "30": 446011
+      },
+      "BFS root 3": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      },
+      "DFS root 3": {
+        "10": -1,
+        "20": -1,
+        "30": -1
+      }
+    },
+    "distances": {
+      "10-20": 5,
+      "10-30": 5,
+      "20-30": 5
+    },
+    "components": 5,
+    "largest": 2500000,
+    "smallest": 156250,
+    "diameter_approx": 19,
+    "diameter_approx_s": 184.56672489599805,
+    "finished": true,
+    "status": "ok"
+  },
+  {
+    "graph": 6,
+    "representation": "matrix",
+    "n": 4843750,
+    "status": "skipped: matrix needs ~21850.6 GiB"
+  }
+]
