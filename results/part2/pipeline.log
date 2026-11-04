@@ -1,0 +1,138 @@
+$ python3 -m experiments.benchmark --resume
+[21:01:27] grafo_W_3: already complete, skipped
+[21:01:27] grafo_W_4: loading ../T2/grafo_W_4.txt (555 MiB) as csr...
+[21:02:21] grafo_W_4: n=1000000 m=30999944 in 54.8 s, +755 MB
+[21:02:42] grafo_W_4 heap #0 source 670488: ok 20.722 s
+[21:03:02] grafo_W_4 heap #1 source 116740: ok 20.129 s
+[21:03:21] grafo_W_4 heap #2 source 26226: ok 18.844 s
+[21:03:40] grafo_W_4 heap #3 source 777573: ok 18.318 s
+[21:04:00] grafo_W_4 heap #4 source 288390: ok 20.718 s
+[21:04:21] grafo_W_4 heap #5 source 256788: ok 20.330 s
+[21:04:42] grafo_W_4 heap #6 source 234054: ok 21.688 s
+[21:05:02] grafo_W_4 heap #7 source 146317: ok 19.494 s
+[21:05:22] grafo_W_4 heap #8 source 772247: ok 19.731 s
+[21:05:42] grafo_W_4 heap #9 source 107474: ok 20.410 s
+[21:06:04] grafo_W_4 heap #10 source 709571: ok 21.801 s
+[21:06:25] grafo_W_4 heap #11 source 776647: ok 21.207 s
+[21:06:47] grafo_W_4 heap #12 source 935519: ok 21.562 s
+[21:07:08] grafo_W_4 heap #13 source 571859: ok 21.734 s
+[21:07:28] grafo_W_4 heap #14 source 91162: ok 19.686 s
+[21:07:48] grafo_W_4 heap #15 source 619177: ok 19.813 s
+[21:08:11] grafo_W_4 heap #16 source 442418: ok 22.993 s
+[21:08:33] grafo_W_4 heap #17 source 33327: ok 21.823 s
+[21:08:54] grafo_W_4 heap #18 source 31245: ok 21.238 s
+[21:09:14] grafo_W_4 heap #19 source 98247: ok 20.209 s
+[21:09:33] grafo_W_4 heap #20 source 229259: ok 18.882 s
+[21:09:52] grafo_W_4 heap #21 source 243963: ok 18.814 s
+[21:10:11] grafo_W_4 heap #22 source 529904: ok 19.155 s
+[21:10:32] grafo_W_4 heap #23 source 631263: ok 21.213 s
+[21:10:55] grafo_W_4 heap #24 source 27825: ok 22.350 s
+[21:11:14] grafo_W_4 heap #25 source 588509: ok 19.587 s
+[21:11:34] grafo_W_4 heap #26 source 208497: ok 19.520 s
+[21:11:55] grafo_W_4 heap #27 source 750801: ok 21.606 s
+[21:12:19] grafo_W_4 heap #28 source 681454: ok 23.323 s
+[21:12:40] grafo_W_4 heap #29 source 735393: ok 21.725 s
+[21:13:03] grafo_W_4 heap #30 source 571413: ok 22.730 s
+[21:13:24] grafo_W_4 heap #31 source 439899: ok 21.199 s
+[21:13:47] grafo_W_4 heap #32 source 231149: ok 22.209 s
+[21:14:07] grafo_W_4 heap #33 source 471030: ok 20.827 s
+[21:14:27] grafo_W_4 heap #34 source 617890: ok 19.782 s
+[21:14:47] grafo_W_4 heap #35 source 291705: ok 19.812 s
+[21:15:07] grafo_W_4 heap #36 source 848750: ok 19.575 s
+[21:15:29] grafo_W_4 heap #37 source 911528: ok 21.909 s
+[21:15:51] grafo_W_4 heap #38 source 6815: ok 22.197 s
+[21:16:13] grafo_W_4 heap #39 source 795668: ok 22.634 s
+[21:16:36] grafo_W_4 heap #40 source 844963: ok 22.474 s
+[21:16:56] grafo_W_4 heap #41 source 167415: ok 20.274 s
+[21:17:16] grafo_W_4 heap #42 source 732053: ok 19.552 s
+[21:17:35] grafo_W_4 heap #43 source 443144: ok 19.234 s
+[21:17:54] grafo_W_4 heap #44 source 356779: ok 18.723 s
+[21:18:13] grafo_W_4 heap #45 source 291370: ok 18.772 s
+[21:18:32] grafo_W_4 heap #46 source 163033: ok 18.960 s
+[21:18:50] grafo_W_4 heap #47 source 225773: ok 18.682 s
+[21:19:11] grafo_W_4 heap #48 source 800582: ok 20.932 s
+[21:19:30] grafo_W_4 heap #49 source 352945: ok 18.853 s
+[21:19:49] grafo_W_4 heap #50 source 107176: ok 18.830 s
+[21:20:08] grafo_W_4 heap #51 source 97252: ok 18.757 s
+[21:20:26] grafo_W_4 heap #52 source 398383: ok 18.779 s
+[21:20:45] grafo_W_4 heap #53 source 101415: ok 18.396 s
+[21:21:03] grafo_W_4 heap #54 source 376418: ok 18.235 s
+[21:21:21] grafo_W_4 heap #55 source 888663: ok 18.316 s
+[21:21:40] grafo_W_4 heap #56 source 360664: ok 18.391 s
+[21:22:00] grafo_W_4 heap #57 source 633053: ok 20.252 s
+[21:22:00] grafo_W_5: loading ../T2/grafo_W_5.txt (793 MiB) as csr...
+[21:23:25] grafo_W_5: n=10000000 m=39999991 in 85.2 s, +999 MB
+[21:38:26] grafo_W_5 vector #0 source 1867826: timeout (> 900 s)
+[21:40:51] grafo_W_5 heap #0 source 1867826: ok 144.987 s
+[21:43:12] grafo_W_5 heap #1 source 419611: ok 141.407 s
+[21:45:32] grafo_W_5 heap #2 source 4614227: ok 139.960 s
+[21:47:51] grafo_W_5 heap #3 source 4108604: ok 139.143 s
+[21:50:11] grafo_W_5 heap #4 source 3744855: ok 139.494 s
+[21:52:30] grafo_W_5 heap #5 source 2341058: ok 139.022 s
+[21:54:50] grafo_W_5 heap #6 source 1719584: ok 139.578 s
+[21:57:09] grafo_W_5 heap #7 source 9149733: ok 138.986 s
+[21:57:09] grafo_W_6: loading ../T2/grafo_W_6.txt (1455 MiB) as csr...
+[21:59:31] grafo_W_6: n=10000000 m=73403372 in 142.5 s, +1756 MB
+[22:14:31] grafo_W_6 vector #0 source 1867826: timeout (> 900 s)
+[22:17:23] grafo_W_6 heap #0 source 1867826: ok 171.254 s
+[22:20:14] grafo_W_6 heap #1 source 419611: ok 171.182 s
+[22:23:06] grafo_W_6 heap #2 source 4614227: ok 172.073 s
+[22:25:57] grafo_W_6 heap #3 source 4108604: ok 170.870 s
+[22:28:49] grafo_W_6 heap #4 source 3744855: ok 171.425 s
+[22:31:40] grafo_W_6 heap #5 source 2341058: ok 171.584 s
+[22:31:41] grafo_W_7: loading ../T2/grafo_W_7.txt (1291 MiB) as csr...
+[22:33:49] grafo_W_7: n=50000000 m=59999999 in 128.6 s, +1755 MB
+[22:48:50] grafo_W_7 vector #0 source 42911207: timeout (> 900 s)
+[22:58:30] grafo_W_7 heap #0 source 42911207: ok 579.801 s
+[23:08:08] grafo_W_7 heap #1 source 7471302: ok 577.999 s
+[23:08:08] done: results/part2/benchmarks/summary.md
+$ python3 -m experiments.shortest_paths --validate-timeout 300
+[23:08:09] grafo_W_3: loading ../T2/grafo_W_3.txt (98 MiB) as csr...
+[23:08:17] grafo_W_3: n=100000 m=6099868 in 8.8 s, +144 MB
+[23:08:19] grafo_W_3: d(10,20) = 0.8, 18 edges
+[23:08:19] grafo_W_3: d(10,30) = 0.89, 14 edges
+[23:08:19] grafo_W_3: d(10,40) = 0.84, 10 edges
+[23:08:19] grafo_W_3: d(10,50) = 0.87, 9 edges
+[23:08:19] grafo_W_3: d(10,60) = 0.97, 16 edges
+[23:08:21] grafo_W_3: optimality certificate: ok (12199736 edge entries)
+[23:11:00] grafo_W_3: vector vs heap: equal
+[23:11:00] grafo_W_4: loading ../T2/grafo_W_4.txt (555 MiB) as csr...
+[23:11:51] grafo_W_4: n=1000000 m=30999944 in 51.6 s, +749 MB
+[23:12:08] grafo_W_4: d(10,20) = 2.66, 13 edges
+[23:12:08] grafo_W_4: d(10,30) = 2.02, 17 edges
+[23:12:08] grafo_W_4: d(10,40) = 2.52, 15 edges
+[23:12:08] grafo_W_4: d(10,50) = 2.69, 18 edges
+[23:12:08] grafo_W_4: d(10,60) = 2.41, 19 edges
+[23:12:22] grafo_W_4: optimality certificate: ok (61999888 edge entries)
+[23:17:22] grafo_W_4: vector vs heap: vector not finished in 300.0 s
+[23:17:22] grafo_W_5: loading ../T2/grafo_W_5.txt (793 MiB) as csr...
+[23:18:45] grafo_W_5: n=10000000 m=39999991 in 82.8 s, +1027 MB
+[23:21:03] grafo_W_5: d(10,20) = 17.34, 13 edges
+[23:21:03] grafo_W_5: d(10,30) = 17.24, 18 edges
+[23:21:03] grafo_W_5: d(10,40) = 17.37, 14 edges
+[23:21:03] grafo_W_5: d(10,50) = 15.43, 12 edges
+[23:21:03] grafo_W_5: d(10,60) = 17.99, 22 edges
+[23:21:43] grafo_W_5: optimality certificate: ok (79999982 edge entries)
+[23:26:43] grafo_W_5: vector vs heap: vector not finished in 300.0 s
+[23:26:45] grafo_W_6: loading ../T2/grafo_W_6.txt (1455 MiB) as csr...
+[23:29:06] grafo_W_6: n=10000000 m=73403372 in 140.8 s, +1714 MB
+[23:31:56] grafo_W_6: d(10,20) = 11.26, 20 edges
+[23:31:56] grafo_W_6: d(10,30) = 10.67, 22 edges
+[23:31:56] grafo_W_6: d(10,40) = 11.31, 11 edges
+[23:31:56] grafo_W_6: d(10,50) = 9.6, 12 edges
+[23:31:56] grafo_W_6: d(10,60) = 10.72, 20 edges
+[23:32:57] grafo_W_6: optimality certificate: ok (146806744 edge entries)
+[23:37:57] grafo_W_6: vector vs heap: vector not finished in 300.0 s
+[23:37:59] grafo_W_7: loading ../T2/grafo_W_7.txt (1291 MiB) as csr...
+[23:40:05] grafo_W_7: n=50000000 m=59999999 in 126.1 s, +1755 MB
+[23:49:16] grafo_W_7: d(10,20) = 93.47, 33 edges
+[23:49:16] grafo_W_7: d(10,30) = 95.08, 32 edges
+[23:49:16] grafo_W_7: d(10,40) = 100.69, 46 edges
+[23:49:16] grafo_W_7: d(10,50) = 95.77, 34 edges
+[23:49:16] grafo_W_7: d(10,60) = 82.25, 36 edges
+[23:51:14] grafo_W_7: optimality certificate: ok (119999998 edge entries)
+[23:56:14] grafo_W_7: vector vs heap: vector not finished in 300.0 s
+[23:56:26] done: results/part2/shortest_paths/table.md
+$ python3 -m experiments.report
+results/part2/report/results.md {'shortest_paths': 'ok', 'benchmark': 'ok', 'collaboration': 'ok', 'incomplete_measurements': [{'graph': 'grafo_W_3', 'strategies': ['vector'], 'vector_completed': 7, 'heap_completed': 100, 'k': 100}, {'graph': 'grafo_W_4', 'strategies': ['vector', 'heap'], 'vector_completed': 0, 'heap_completed': 58, 'k': 100}, {'graph': 'grafo_W_5', 'strategies': ['vector', 'heap'], 'vector_completed': 0, 'heap_completed': 8, 'k': 100}, {'graph': 'grafo_W_6', 'strategies': ['vector', 'heap'], 'vector_completed': 0, 'heap_completed': 6, 'k': 100}, {'graph': 'grafo_W_7', 'strategies': ['vector', 'heap'], 'vector_completed': 0, 'heap_completed': 2, 'k': 100}]}
+PIPELINE DONE

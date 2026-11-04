@@ -1,0 +1,166 @@
+{
+  "source": "Edsger W. Dijkstra",
+  "source_id": 2722,
+  "n": 722385,
+  "m": 2272543,
+  "load_s": 4.874598918000629,
+  "memory_mb": 182.2265625,
+  "dijkstra_s": 3.389593946999412,
+  "reachable": 576309,
+  "rows": [
+    {
+      "source": "Edsger W. Dijkstra",
+      "source_id": 2722,
+      "target": "Alan M. Turing",
+      "target_id": 11365,
+      "status": "unreachable",
+      "distance": null,
+      "edges": null,
+      "path_ids": null,
+      "path_names": null
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "source_id": 2722,
+      "target": "J. B. Kruskal",
+      "target_id": 471365,
+      "status": "ok",
+      "distance": 3.48036845488905,
+      "edges": 8,
+      "path_ids": [
+        2722,
+        9490,
+        7200,
+        10343,
+        646765,
+        490368,
+        10746,
+        3655,
+        471365
+      ],
+      "path_names": [
+        "Edsger W. Dijkstra",
+        "John R. Rice",
+        "Dan C. Marinescu",
+        "Howard Jay Siegel",
+        "Edwin K. P. Chong",
+        "Ness B. Shroff",
+        "R. Srikant",
+        "Albert G. Greenberg",
+        "J. B. Kruskal"
+      ]
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "source_id": 2722,
+      "target": "Jon M. Kleinberg",
+      "target_id": 5709,
+      "status": "ok",
+      "distance": 2.7069936175564644,
+      "edges": 9,
+      "path_ids": [
+        2722,
+        217250,
+        11456,
+        768,
+        11448,
+        101826,
+        12242,
+        11834,
+        9608,
+        5709
+      ],
+      "path_names": [
+        "Edsger W. Dijkstra",
+        "A. J. M. van Gasteren",
+        "Gerard Tel",
+        "Hans L. Bodlaender",
+        "Dimitrios M. Thilikos",
+        "Prabhakar Ragde",
+        "Avi Wigderson",
+        "Eli Upfal",
+        "Prabhakar Raghavan",
+        "Jon M. Kleinberg"
+      ]
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "source_id": 2722,
+      "target": "Éva Tardos",
+      "target_id": 11386,
+      "status": "ok",
+      "distance": 2.7535141793573357,
+      "edges": 11,
+      "path_ids": [
+        2722,
+        217250,
+        11456,
+        768,
+        6479,
+        8528,
+        10572,
+        357587,
+        11649,
+        3694,
+        318911,
+        11386
+      ],
+      "path_names": [
+        "Edsger W. Dijkstra",
+        "A. J. M. van Gasteren",
+        "Gerard Tel",
+        "Hans L. Bodlaender",
+        "Jan van Leeuwen",
+        "Mark H. Overmars",
+        "Micha Sharir",
+        "Haim Kaplan",
+        "Robert Endre Tarjan",
+        "Andrew V. Goldberg",
+        "Serge A. Plotkin",
+        "Éva Tardos"
+      ]
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "source_id": 2722,
+      "target": "Daniel R. Figueiredo",
+      "target_id": 343930,
+      "status": "ok",
+      "distance": 2.9428308695367855,
+      "edges": 8,
+      "path_ids": [
+        2722,
+        9490,
+        7200,
+        391667,
+        371226,
+        4379,
+        68773,
+        11466,
+        343930
+      ],
+      "path_names": [
+        "Edsger W. Dijkstra",
+        "John R. Rice",
+        "Dan C. Marinescu",
+        "Chuang Lin",
+        "Bo Li",
+        "Y. Thomas Hou",
+        "Zhi-Li Zhang",
+        "Donald F. Towsley",
+        "Daniel R. Figueiredo"
+      ]
+    }
+  ],
+  "environment": {
+    "date": "2026-11-03T19:30:25",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/collaboration.py"
+    ]
+  }
+}

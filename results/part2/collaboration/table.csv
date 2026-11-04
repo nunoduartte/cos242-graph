@@ -1,0 +1,6 @@
+source,source_id,target,target_id,status,distance,edges,path_ids,path_names
+Edsger W. Dijkstra,2722,Alan M. Turing,11365,unreachable,,,,
+Edsger W. Dijkstra,2722,J. B. Kruskal,471365,ok,3.48036845488905,8,2722 9490 7200 10343 646765 490368 10746 3655 471365,Edsger W. Dijkstra | John R. Rice | Dan C. Marinescu | Howard Jay Siegel | Edwin K. P. Chong | Ness B. Shroff | R. Srikant | Albert G. Greenberg | J. B. Kruskal
+Edsger W. Dijkstra,2722,Jon M. Kleinberg,5709,ok,2.7069936175564644,9,2722 217250 11456 768 11448 101826 12242 11834 9608 5709,Edsger W. Dijkstra | A. J. M. van Gasteren | Gerard Tel | Hans L. Bodlaender | Dimitrios M. Thilikos | Prabhakar Ragde | Avi Wigderson | Eli Upfal | Prabhakar Raghavan | Jon M. Kleinberg
+Edsger W. Dijkstra,2722,Éva Tardos,11386,ok,2.7535141793573357,11,2722 217250 11456 768 6479 8528 10572 357587 11649 3694 318911 11386,Edsger W. Dijkstra | A. J. M. van Gasteren | Gerard Tel | Hans L. Bodlaender | Jan van Leeuwen | Mark H. Overmars | Micha Sharir | Haim Kaplan | Robert Endre Tarjan | Andrew V. Goldberg | Serge A. Plotkin | Éva Tardos
+Edsger W. Dijkstra,2722,Daniel R. Figueiredo,343930,ok,2.9428308695367855,8,2722 9490 7200 391667 371226 4379 68773 11466 343930,Edsger W. Dijkstra | John R. Rice | Dan C. Marinescu | Chuang Lin | Bo Li | Y. Thomas Hou | Zhi-Li Zhang | Donald F. Towsley | Daniel R. Figueiredo

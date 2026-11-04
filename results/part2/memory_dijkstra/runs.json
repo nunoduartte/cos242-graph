@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "source": 10,
+      "representation": "csr",
+      "baseline_rss_mb": 17.3515625,
+      "load_s": 8.91552576700633,
+      "n": 100000,
+      "m": 6099868,
+      "rss_after_load_mb": 161.890625,
+      "graph_mb": 144.5390625,
+      "status": "ok",
+      "dijkstra_s": 159.3593513809974,
+      "rss_before_mb": 161.890625,
+      "rss_after_mb": 166.59765625,
+      "peak_rss_mb": 166.59765625,
+      "peak_increase_mb": 4.70703125,
+      "peak_method": "VmHWM after clear_refs",
+      "reachable": 100000,
+      "process_s": 168.3558110410013,
+      "settings": {
+        "timeout_s": 900,
+        "max_memory_gb": 20,
+        "tracemalloc": false
+      }
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "source": 10,
+      "representation": "csr",
+      "baseline_rss_mb": 17.359375,
+      "load_s": 8.952113552993978,
+      "n": 100000,
+      "m": 6099868,
+      "rss_after_load_mb": 161.8984375,
+      "graph_mb": 144.5390625,
+      "status": "ok",
+      "dijkstra_s": 1.6069345040014014,
+      "rss_before_mb": 161.8984375,
+      "rss_after_mb": 171.046875,
+      "peak_rss_mb": 171.046875,
+      "peak_increase_mb": 9.1484375,
+      "peak_method": "VmHWM after clear_refs",
+      "reachable": 100000,
+      "process_s": 10.641186613000173,
+      "settings": {
+        "timeout_s": 900,
+        "max_memory_gb": 20,
+        "tracemalloc": false
+      }
+    }
+  ],
+  "environment": {
+    "date": "2026-11-04T06:30:34",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/memory_dijkstra.py"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "shortest_paths": "ok",
+  "benchmark": "ok",
+  "collaboration": "ok",
+  "incomplete_measurements": [
+    {
+      "graph": "grafo_W_3",
+      "strategies": [
+        "vector"
+      ],
+      "vector_completed": 7,
+      "heap_completed": 100,
+      "k": 100
+    },
+    {
+      "graph": "grafo_W_4",
+      "strategies": [
+        "vector",
+        "heap"
+      ],
+      "vector_completed": 0,
+      "heap_completed": 58,
+      "k": 100
+    },
+    {
+      "graph": "grafo_W_5",
+      "strategies": [
+        "vector",
+        "heap"
+      ],
+      "vector_completed": 0,
+      "heap_completed": 8,
+      "k": 100
+    },
+    {
+      "graph": "grafo_W_6",
+      "strategies": [
+        "vector",
+        "heap"
+      ],
+      "vector_completed": 0,
+      "heap_completed": 6,
+      "k": 100
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategies": [
+        "vector",
+        "heap"
+      ],
+      "vector_completed": 0,
+      "heap_completed": 2,
+      "k": 100
+    }
+  ],
+  "memory_dijkstra": "ok",
+  "representations": "ok"
+}

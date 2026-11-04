@@ -1,0 +1,41 @@
+[19:32:11] grafo_W_3: loading ../T2/grafo_W_3.txt (98 MiB) as csr...
+[19:32:20] grafo_W_3: n=100000 m=6099868 in 8.8 s, +144 MB
+[19:32:22] grafo_W_3: d(10,20) = 0.8, 18 edges
+[19:32:22] grafo_W_3: d(10,30) = 0.89, 14 edges
+[19:32:22] grafo_W_3: d(10,40) = 0.84, 10 edges
+[19:32:22] grafo_W_3: d(10,50) = 0.87, 9 edges
+[19:32:22] grafo_W_3: d(10,60) = 0.97, 16 edges
+[19:35:00] grafo_W_3: vector vs heap: equal
+[19:35:00] grafo_W_4: loading ../T2/grafo_W_4.txt (555 MiB) as csr...
+[19:35:51] grafo_W_4: n=1000000 m=30999944 in 51.4 s, +745 MB
+[19:36:08] grafo_W_4: d(10,20) = 2.66, 13 edges
+[19:36:08] grafo_W_4: d(10,30) = 2.02, 17 edges
+[19:36:08] grafo_W_4: d(10,40) = 2.52, 15 edges
+[19:36:08] grafo_W_4: d(10,50) = 2.69, 18 edges
+[19:36:08] grafo_W_4: d(10,60) = 2.41, 19 edges
+[19:41:08] grafo_W_4: vector vs heap: vector not finished in 300.0 s
+[19:41:09] grafo_W_5: loading ../T2/grafo_W_5.txt (793 MiB) as csr...
+[19:42:32] grafo_W_5: n=10000000 m=39999991 in 82.9 s, +992 MB
+[19:44:50] grafo_W_5: d(10,20) = 17.34, 13 edges
+[19:44:50] grafo_W_5: d(10,30) = 17.24, 18 edges
+[19:44:50] grafo_W_5: d(10,40) = 17.37, 14 edges
+[19:44:50] grafo_W_5: d(10,50) = 15.43, 12 edges
+[19:44:50] grafo_W_5: d(10,60) = 17.99, 22 edges
+[19:49:50] grafo_W_5: vector vs heap: vector not finished in 300.0 s
+[19:49:52] grafo_W_6: loading ../T2/grafo_W_6.txt (1455 MiB) as csr...
+[19:52:11] grafo_W_6: n=10000000 m=73403372 in 139.6 s, +1763 MB
+[19:55:01] grafo_W_6: d(10,20) = 11.26, 20 edges
+[19:55:01] grafo_W_6: d(10,30) = 10.67, 22 edges
+[19:55:01] grafo_W_6: d(10,40) = 11.31, 11 edges
+[19:55:01] grafo_W_6: d(10,50) = 9.6, 12 edges
+[19:55:01] grafo_W_6: d(10,60) = 10.72, 20 edges
+[20:00:01] grafo_W_6: vector vs heap: vector not finished in 300.0 s
+[20:00:03] grafo_W_7: loading ../T2/grafo_W_7.txt (1291 MiB) as csr...
+[20:02:09] grafo_W_7: n=50000000 m=59999999 in 126.0 s, +1755 MB
+[20:11:23] grafo_W_7: d(10,20) = 93.47, 33 edges
+[20:11:23] grafo_W_7: d(10,30) = 95.08, 32 edges
+[20:11:23] grafo_W_7: d(10,40) = 100.69, 46 edges
+[20:11:23] grafo_W_7: d(10,50) = 95.77, 34 edges
+[20:11:23] grafo_W_7: d(10,60) = 82.25, 36 edges
+[20:16:23] grafo_W_7: vector vs heap: vector not finished in 300.0 s
+[20:16:35] done: results/part2/shortest_paths/table.md

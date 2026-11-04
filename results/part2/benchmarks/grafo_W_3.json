@@ -1,0 +1,1737 @@
+{
+  "graph": "grafo_W_3",
+  "n": 100000,
+  "m": 6099868,
+  "k": 100,
+  "seed": 42,
+  "sources": [
+    83811,
+    14593,
+    3279,
+    97197,
+    36049,
+    32099,
+    29257,
+    18290,
+    96531,
+    13435,
+    88697,
+    97081,
+    71483,
+    11396,
+    77398,
+    55303,
+    4166,
+    3906,
+    12281,
+    28658,
+    30496,
+    66238,
+    78908,
+    3479,
+    73564,
+    26063,
+    93851,
+    85182,
+    91925,
+    71427,
+    54988,
+    28894,
+    58879,
+    77237,
+    36464,
+    852,
+    99459,
+    20927,
+    91507,
+    55393,
+    44598,
+    36422,
+    20380,
+    28222,
+    44119,
+    13397,
+    12157,
+    49798,
+    12677,
+    47053,
+    45083,
+    79132,
+    34672,
+    5696,
+    95648,
+    60218,
+    70285,
+    16362,
+    49616,
+    10329,
+    72358,
+    38428,
+    82398,
+    81071,
+    47401,
+    75675,
+    25204,
+    92350,
+    9117,
+    6007,
+    86674,
+    29872,
+    37931,
+    10459,
+    30513,
+    13239,
+    49824,
+    36435,
+    59430,
+    83321,
+    47820,
+    21320,
+    48521,
+    46567,
+    27461,
+    87842,
+    34994,
+    91989,
+    89594,
+    84940,
+    9359,
+    79841,
+    83228,
+    22432,
+    70011,
+    95569,
+    32088,
+    21418,
+    60590,
+    49736
+  ],
+  "budget_s": 1200.0,
+  "run_timeout_s": 900.0,
+  "representation": "csr",
+  "load_s": 8.930421201001081,
+  "memory_mb": 144.0,
+  "environment": {
+    "date": "2026-11-03T20:18:24",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/benchmark.py",
+      "--data-dir",
+      "../T2",
+      "--k",
+      "100",
+      "--seed",
+      "42",
+      "--budget",
+      "1200",
+      "--run-timeout",
+      "900"
+    ]
+  },
+  "runs": [
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 0,
+      "source": 83811,
+      "seconds": 154.67897565900057,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 1,
+      "source": 14593,
+      "seconds": 155.35551310200026,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 2,
+      "source": 3279,
+      "seconds": 155.08805438300078,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 3,
+      "source": 97197,
+      "seconds": 155.97356853200108,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 4,
+      "source": 36049,
+      "seconds": 152.52608698099903,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 5,
+      "source": 32099,
+      "seconds": 152.117495814,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 6,
+      "source": 29257,
+      "seconds": 156.2539346070007,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 7,
+      "source": 18290,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 8,
+      "source": 96531,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 9,
+      "source": 13435,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 10,
+      "source": 88697,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 11,
+      "source": 97081,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 12,
+      "source": 71483,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 13,
+      "source": 11396,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 14,
+      "source": 77398,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 15,
+      "source": 55303,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 16,
+      "source": 4166,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 17,
+      "source": 3906,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 18,
+      "source": 12281,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 19,
+      "source": 28658,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 20,
+      "source": 30496,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 21,
+      "source": 66238,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 22,
+      "source": 78908,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 23,
+      "source": 3479,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 24,
+      "source": 73564,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 25,
+      "source": 26063,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 26,
+      "source": 93851,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 27,
+      "source": 85182,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 28,
+      "source": 91925,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 29,
+      "source": 71427,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 30,
+      "source": 54988,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 31,
+      "source": 28894,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 32,
+      "source": 58879,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 33,
+      "source": 77237,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 34,
+      "source": 36464,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 35,
+      "source": 852,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 36,
+      "source": 99459,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 37,
+      "source": 20927,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 38,
+      "source": 91507,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 39,
+      "source": 55393,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 40,
+      "source": 44598,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 41,
+      "source": 36422,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 42,
+      "source": 20380,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 43,
+      "source": 28222,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 44,
+      "source": 44119,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 45,
+      "source": 13397,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 46,
+      "source": 12157,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 47,
+      "source": 49798,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 48,
+      "source": 12677,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 49,
+      "source": 47053,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 50,
+      "source": 45083,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 51,
+      "source": 79132,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 52,
+      "source": 34672,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 53,
+      "source": 5696,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 54,
+      "source": 95648,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 55,
+      "source": 60218,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 56,
+      "source": 70285,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 57,
+      "source": 16362,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 58,
+      "source": 49616,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 59,
+      "source": 10329,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 60,
+      "source": 72358,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 61,
+      "source": 38428,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 62,
+      "source": 82398,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 63,
+      "source": 81071,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 64,
+      "source": 47401,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 65,
+      "source": 75675,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 66,
+      "source": 25204,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 67,
+      "source": 92350,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 68,
+      "source": 9117,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 69,
+      "source": 6007,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 70,
+      "source": 86674,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 71,
+      "source": 29872,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 72,
+      "source": 37931,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 73,
+      "source": 10459,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 74,
+      "source": 30513,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 75,
+      "source": 13239,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 76,
+      "source": 49824,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 77,
+      "source": 36435,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 78,
+      "source": 59430,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 79,
+      "source": 83321,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 80,
+      "source": 47820,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 81,
+      "source": 21320,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 82,
+      "source": 48521,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 83,
+      "source": 46567,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 84,
+      "source": 27461,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 85,
+      "source": 87842,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 86,
+      "source": 34994,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 87,
+      "source": 91989,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 88,
+      "source": 89594,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 89,
+      "source": 84940,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 90,
+      "source": 9359,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 91,
+      "source": 79841,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 92,
+      "source": 83228,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 93,
+      "source": 22432,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 94,
+      "source": 70011,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 95,
+      "source": 95569,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 96,
+      "source": 32088,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 97,
+      "source": 21418,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 98,
+      "source": 60590,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "vector",
+      "run": 99,
+      "source": 49736,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 0,
+      "source": 83811,
+      "seconds": 1.6084120989999064,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 1,
+      "source": 14593,
+      "seconds": 1.6040343429995119,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 2,
+      "source": 3279,
+      "seconds": 1.6088093010002922,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 3,
+      "source": 97197,
+      "seconds": 1.6103677360006259,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 4,
+      "source": 36049,
+      "seconds": 1.615225426001416,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 5,
+      "source": 32099,
+      "seconds": 1.6171135799995682,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 6,
+      "source": 29257,
+      "seconds": 1.6107247359996109,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 7,
+      "source": 18290,
+      "seconds": 1.6079066550009884,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 8,
+      "source": 96531,
+      "seconds": 1.6128065660013817,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 9,
+      "source": 13435,
+      "seconds": 1.610549250999611,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 10,
+      "source": 88697,
+      "seconds": 1.6216078500001458,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 11,
+      "source": 97081,
+      "seconds": 1.6212272779994237,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 12,
+      "source": 71483,
+      "seconds": 1.6118679190003604,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 13,
+      "source": 11396,
+      "seconds": 1.6076036159993237,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 14,
+      "source": 77398,
+      "seconds": 1.621927919000882,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 15,
+      "source": 55303,
+      "seconds": 1.6154977530004544,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 16,
+      "source": 4166,
+      "seconds": 1.6139652099991508,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 17,
+      "source": 3906,
+      "seconds": 1.604297420999501,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 18,
+      "source": 12281,
+      "seconds": 1.6090700489985466,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 19,
+      "source": 28658,
+      "seconds": 1.615215645000717,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 20,
+      "source": 30496,
+      "seconds": 1.616413219999231,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 21,
+      "source": 66238,
+      "seconds": 1.6104077470008633,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 22,
+      "source": 78908,
+      "seconds": 1.614725351000743,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 23,
+      "source": 3479,
+      "seconds": 1.611328393999429,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 24,
+      "source": 73564,
+      "seconds": 1.6158307430014247,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 25,
+      "source": 26063,
+      "seconds": 1.6122431099993264,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 26,
+      "source": 93851,
+      "seconds": 1.6123811739998928,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 27,
+      "source": 85182,
+      "seconds": 1.6195612110004731,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 28,
+      "source": 91925,
+      "seconds": 1.612782865000554,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 29,
+      "source": 71427,
+      "seconds": 1.604992680999203,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 30,
+      "source": 54988,
+      "seconds": 1.611191219999455,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 31,
+      "source": 28894,
+      "seconds": 1.6017702280005324,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 32,
+      "source": 58879,
+      "seconds": 1.6103123749999213,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 33,
+      "source": 77237,
+      "seconds": 1.606224907000069,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 34,
+      "source": 36464,
+      "seconds": 1.6001473809992603,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 35,
+      "source": 852,
+      "seconds": 1.5963703130000795,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 36,
+      "source": 99459,
+      "seconds": 1.598913256000742,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 37,
+      "source": 20927,
+      "seconds": 1.6012581940012751,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 38,
+      "source": 91507,
+      "seconds": 1.603302002999044,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 39,
+      "source": 55393,
+      "seconds": 1.612548937999236,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 40,
+      "source": 44598,
+      "seconds": 1.6144235230003687,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 41,
+      "source": 36422,
+      "seconds": 1.6017054759995517,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 42,
+      "source": 20380,
+      "seconds": 1.6070335499989596,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 43,
+      "source": 28222,
+      "seconds": 1.6242964469984145,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 44,
+      "source": 44119,
+      "seconds": 1.6574128800002654,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 45,
+      "source": 13397,
+      "seconds": 1.6267284870009462,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 46,
+      "source": 12157,
+      "seconds": 1.6150287110012869,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 47,
+      "source": 49798,
+      "seconds": 1.6134971260016755,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 48,
+      "source": 12677,
+      "seconds": 1.6209320199996,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 49,
+      "source": 47053,
+      "seconds": 1.616832951998731,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 50,
+      "source": 45083,
+      "seconds": 1.6195955510011117,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 51,
+      "source": 79132,
+      "seconds": 1.6100070449992927,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 52,
+      "source": 34672,
+      "seconds": 1.6066868400012027,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 53,
+      "source": 5696,
+      "seconds": 1.6045876190000854,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 54,
+      "source": 95648,
+      "seconds": 1.615869973998997,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 55,
+      "source": 60218,
+      "seconds": 1.6186099129990907,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 56,
+      "source": 70285,
+      "seconds": 1.6187778079984128,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 57,
+      "source": 16362,
+      "seconds": 1.6132232379986817,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 58,
+      "source": 49616,
+      "seconds": 1.6176558260012825,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 59,
+      "source": 10329,
+      "seconds": 1.6098291800008155,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 60,
+      "source": 72358,
+      "seconds": 1.6138240350010165,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 61,
+      "source": 38428,
+      "seconds": 1.6058326049987954,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 62,
+      "source": 82398,
+      "seconds": 1.6091057899993757,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 63,
+      "source": 81071,
+      "seconds": 1.6085223520003638,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 64,
+      "source": 47401,
+      "seconds": 1.6129990209992684,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 65,
+      "source": 75675,
+      "seconds": 1.612883628000418,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 66,
+      "source": 25204,
+      "seconds": 1.6113654740001948,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 67,
+      "source": 92350,
+      "seconds": 1.6102283719992556,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 68,
+      "source": 9117,
+      "seconds": 1.6068958760006353,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 69,
+      "source": 6007,
+      "seconds": 1.607645356998546,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 70,
+      "source": 86674,
+      "seconds": 1.609125299999505,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 71,
+      "source": 29872,
+      "seconds": 1.6141575849997025,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 72,
+      "source": 37931,
+      "seconds": 1.618100877998586,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 73,
+      "source": 10459,
+      "seconds": 1.6275647310012573,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 74,
+      "source": 30513,
+      "seconds": 1.6157460209997225,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 75,
+      "source": 13239,
+      "seconds": 1.6078001520018006,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 76,
+      "source": 49824,
+      "seconds": 1.6123669940006948,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 77,
+      "source": 36435,
+      "seconds": 1.6154070410011627,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 78,
+      "source": 59430,
+      "seconds": 1.6099636740000278,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 79,
+      "source": 83321,
+      "seconds": 1.617007717000888,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 80,
+      "source": 47820,
+      "seconds": 1.6113588339994749,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 81,
+      "source": 21320,
+      "seconds": 1.6166631570013124,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 82,
+      "source": 48521,
+      "seconds": 1.6172971650012187,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 83,
+      "source": 46567,
+      "seconds": 1.618853769999987,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 84,
+      "source": 27461,
+      "seconds": 1.5996713080003246,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 85,
+      "source": 87842,
+      "seconds": 1.6072011350006505,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 86,
+      "source": 34994,
+      "seconds": 1.6017850789994554,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 87,
+      "source": 91989,
+      "seconds": 1.591364738998891,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 88,
+      "source": 89594,
+      "seconds": 1.5916571270008717,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 89,
+      "source": 84940,
+      "seconds": 1.6084011799994187,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 90,
+      "source": 9359,
+      "seconds": 1.5965198070007318,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 91,
+      "source": 79841,
+      "seconds": 1.5965508879999106,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 92,
+      "source": 83228,
+      "seconds": 1.5979614479983866,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 93,
+      "source": 22432,
+      "seconds": 1.6012456830012525,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 94,
+      "source": 70011,
+      "seconds": 1.6039870429995062,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 95,
+      "source": 95569,
+      "seconds": 1.6078899450003519,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 96,
+      "source": 32088,
+      "seconds": 1.6214695449998544,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 97,
+      "source": 21418,
+      "seconds": 1.6074116809995758,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 98,
+      "source": 60590,
+      "seconds": 1.6070048089986813,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_3",
+      "strategy": "heap",
+      "run": 99,
+      "source": 49736,
+      "seconds": 1.6055292259989074,
+      "status": "ok"
+    }
+  ]
+}

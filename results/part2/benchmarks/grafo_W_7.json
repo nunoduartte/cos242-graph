@@ -1,0 +1,1730 @@
+{
+  "graph": "grafo_W_7",
+  "n": 50000000,
+  "m": 59999999,
+  "k": 100,
+  "seed": 42,
+  "sources": [
+    42911207,
+    7471302,
+    1678444,
+    49764612,
+    18456906,
+    16434415,
+    14979420,
+    9364232,
+    49423747,
+    6878335,
+    45412534,
+    49705371,
+    36598929,
+    5834367,
+    39627282,
+    28314695,
+    2132900,
+    1999658,
+    6287782,
+    14672547,
+    15613609,
+    33913820,
+    40400794,
+    1780799,
+    37664519,
+    13343769,
+    48051263,
+    43613007,
+    47065123,
+    36570404,
+    28153499,
+    14793520,
+    30145909,
+    39544951,
+    18669063,
+    436125,
+    10714556,
+    46851342,
+    28361173,
+    22833826,
+    18647631,
+    10434053,
+    14449462,
+    22588478,
+    6859216,
+    6224069,
+    25496490,
+    6490527,
+    24090699,
+    23082478,
+    40515369,
+    17751695,
+    2915910,
+    48971472,
+    30831482,
+    35985659,
+    8376942,
+    25403013,
+    5288192,
+    37046820,
+    19674862,
+    42187303,
+    41508158,
+    24268916,
+    38745447,
+    12904269,
+    47283016,
+    4667768,
+    3075223,
+    44376631,
+    15293995,
+    19420498,
+    5354749,
+    15622332,
+    6778092,
+    25509840,
+    18654493,
+    30427851,
+    42660061,
+    24483474,
+    10915532,
+    24842425,
+    23841814,
+    14059779,
+    44974695,
+    17916579,
+    47098364,
+    45872108,
+    43488919,
+    4791742,
+    40878090,
+    42612672,
+    11484921,
+    35845521,
+    48930872,
+    16428984,
+    10965756,
+    31021758,
+    25464824,
+    18115892
+  ],
+  "budget_s": 1200,
+  "run_timeout_s": 900,
+  "representation": "csr",
+  "load_s": 128.56620661200213,
+  "memory_mb": 1754.765625,
+  "environment": {
+    "date": "2026-11-03T22:33:49",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/benchmark.py",
+      "--resume"
+    ]
+  },
+  "runs": [
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 0,
+      "source": 42911207,
+      "seconds": null,
+      "status": "timeout (> 900 s)",
+      "interrupted_after_s": 900.1030881049992,
+      "limit_s": 900
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 1,
+      "source": 7471302,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 2,
+      "source": 1678444,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 3,
+      "source": 49764612,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 4,
+      "source": 18456906,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 5,
+      "source": 16434415,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 6,
+      "source": 14979420,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 7,
+      "source": 9364232,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 8,
+      "source": 49423747,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 9,
+      "source": 6878335,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 10,
+      "source": 45412534,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 11,
+      "source": 49705371,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 12,
+      "source": 36598929,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 13,
+      "source": 5834367,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 14,
+      "source": 39627282,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 15,
+      "source": 28314695,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 16,
+      "source": 2132900,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 17,
+      "source": 1999658,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 18,
+      "source": 6287782,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 19,
+      "source": 14672547,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 20,
+      "source": 15613609,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 21,
+      "source": 33913820,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 22,
+      "source": 40400794,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 23,
+      "source": 1780799,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 24,
+      "source": 37664519,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 25,
+      "source": 13343769,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 26,
+      "source": 48051263,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 27,
+      "source": 43613007,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 28,
+      "source": 47065123,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 29,
+      "source": 36570404,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 30,
+      "source": 28153499,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 31,
+      "source": 14793520,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 32,
+      "source": 30145909,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 33,
+      "source": 39544951,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 34,
+      "source": 18669063,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 35,
+      "source": 436125,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 36,
+      "source": 10714556,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 37,
+      "source": 46851342,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 38,
+      "source": 28361173,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 39,
+      "source": 22833826,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 40,
+      "source": 18647631,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 41,
+      "source": 10434053,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 42,
+      "source": 14449462,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 43,
+      "source": 22588478,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 44,
+      "source": 6859216,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 45,
+      "source": 6224069,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 46,
+      "source": 25496490,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 47,
+      "source": 6490527,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 48,
+      "source": 24090699,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 49,
+      "source": 23082478,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 50,
+      "source": 40515369,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 51,
+      "source": 17751695,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 52,
+      "source": 2915910,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 53,
+      "source": 48971472,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 54,
+      "source": 30831482,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 55,
+      "source": 35985659,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 56,
+      "source": 8376942,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 57,
+      "source": 25403013,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 58,
+      "source": 5288192,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 59,
+      "source": 37046820,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 60,
+      "source": 19674862,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 61,
+      "source": 42187303,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 62,
+      "source": 41508158,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 63,
+      "source": 24268916,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 64,
+      "source": 38745447,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 65,
+      "source": 12904269,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 66,
+      "source": 47283016,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 67,
+      "source": 4667768,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 68,
+      "source": 3075223,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 69,
+      "source": 44376631,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 70,
+      "source": 15293995,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 71,
+      "source": 19420498,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 72,
+      "source": 5354749,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 73,
+      "source": 15622332,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 74,
+      "source": 6778092,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 75,
+      "source": 25509840,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 76,
+      "source": 18654493,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 77,
+      "source": 30427851,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 78,
+      "source": 42660061,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 79,
+      "source": 24483474,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 80,
+      "source": 10915532,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 81,
+      "source": 24842425,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 82,
+      "source": 23841814,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 83,
+      "source": 14059779,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 84,
+      "source": 44974695,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 85,
+      "source": 17916579,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 86,
+      "source": 47098364,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 87,
+      "source": 45872108,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 88,
+      "source": 43488919,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 89,
+      "source": 4791742,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 90,
+      "source": 40878090,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 91,
+      "source": 42612672,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 92,
+      "source": 11484921,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 93,
+      "source": 35845521,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 94,
+      "source": 48930872,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 95,
+      "source": 16428984,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 96,
+      "source": 10965756,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 97,
+      "source": 31021758,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 98,
+      "source": 25464824,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "vector",
+      "run": 99,
+      "source": 18115892,
+      "seconds": null,
+      "status": "not run (previous run timed out)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 0,
+      "source": 42911207,
+      "seconds": 579.8011390290012,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 1,
+      "source": 7471302,
+      "seconds": 577.9991561770003,
+      "status": "ok"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 2,
+      "source": 1678444,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 3,
+      "source": 49764612,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 4,
+      "source": 18456906,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 5,
+      "source": 16434415,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 6,
+      "source": 14979420,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 7,
+      "source": 9364232,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 8,
+      "source": 49423747,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 9,
+      "source": 6878335,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 10,
+      "source": 45412534,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 11,
+      "source": 49705371,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 12,
+      "source": 36598929,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 13,
+      "source": 5834367,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 14,
+      "source": 39627282,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 15,
+      "source": 28314695,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 16,
+      "source": 2132900,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 17,
+      "source": 1999658,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 18,
+      "source": 6287782,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 19,
+      "source": 14672547,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 20,
+      "source": 15613609,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 21,
+      "source": 33913820,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 22,
+      "source": 40400794,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 23,
+      "source": 1780799,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 24,
+      "source": 37664519,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 25,
+      "source": 13343769,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 26,
+      "source": 48051263,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 27,
+      "source": 43613007,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 28,
+      "source": 47065123,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 29,
+      "source": 36570404,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 30,
+      "source": 28153499,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 31,
+      "source": 14793520,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 32,
+      "source": 30145909,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 33,
+      "source": 39544951,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 34,
+      "source": 18669063,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 35,
+      "source": 436125,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 36,
+      "source": 10714556,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 37,
+      "source": 46851342,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 38,
+      "source": 28361173,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 39,
+      "source": 22833826,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 40,
+      "source": 18647631,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 41,
+      "source": 10434053,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 42,
+      "source": 14449462,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 43,
+      "source": 22588478,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 44,
+      "source": 6859216,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 45,
+      "source": 6224069,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 46,
+      "source": 25496490,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 47,
+      "source": 6490527,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 48,
+      "source": 24090699,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 49,
+      "source": 23082478,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 50,
+      "source": 40515369,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 51,
+      "source": 17751695,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 52,
+      "source": 2915910,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 53,
+      "source": 48971472,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 54,
+      "source": 30831482,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 55,
+      "source": 35985659,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 56,
+      "source": 8376942,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 57,
+      "source": 25403013,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 58,
+      "source": 5288192,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 59,
+      "source": 37046820,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 60,
+      "source": 19674862,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 61,
+      "source": 42187303,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 62,
+      "source": 41508158,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 63,
+      "source": 24268916,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 64,
+      "source": 38745447,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 65,
+      "source": 12904269,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 66,
+      "source": 47283016,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 67,
+      "source": 4667768,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 68,
+      "source": 3075223,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 69,
+      "source": 44376631,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 70,
+      "source": 15293995,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 71,
+      "source": 19420498,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 72,
+      "source": 5354749,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 73,
+      "source": 15622332,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 74,
+      "source": 6778092,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 75,
+      "source": 25509840,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 76,
+      "source": 18654493,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 77,
+      "source": 30427851,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 78,
+      "source": 42660061,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 79,
+      "source": 24483474,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 80,
+      "source": 10915532,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 81,
+      "source": 24842425,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 82,
+      "source": 23841814,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 83,
+      "source": 14059779,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 84,
+      "source": 44974695,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 85,
+      "source": 17916579,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 86,
+      "source": 47098364,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 87,
+      "source": 45872108,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 88,
+      "source": 43488919,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 89,
+      "source": 4791742,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 90,
+      "source": 40878090,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 91,
+      "source": 42612672,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 92,
+      "source": 11484921,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 93,
+      "source": 35845521,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 94,
+      "source": 48930872,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 95,
+      "source": 16428984,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 96,
+      "source": 10965756,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 97,
+      "source": 31021758,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 98,
+      "source": 25464824,
+      "seconds": null,
+      "status": "not run (budget)"
+    },
+    {
+      "graph": "grafo_W_7",
+      "strategy": "heap",
+      "run": 99,
+      "source": 18115892,
+      "seconds": null,
+      "status": "not run (budget)"
+    }
+  ]
+}
