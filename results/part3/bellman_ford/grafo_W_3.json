@@ -1,0 +1,100 @@
+{
+  "graph": "grafo_W_3",
+  "n": 100000,
+  "m": 6099941,
+  "directed": true,
+  "min_weight": 0.0,
+  "negative_edges": 0,
+  "target": 100,
+  "load_s": 6.992808304999983,
+  "memory_mb": 81.02734375,
+  "environment": {
+    "date": "2026-11-24T00:02:17",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/bellman_ford.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--timeout",
+      "3600"
+    ]
+  },
+  "sources": [
+    {
+      "source": 10,
+      "distance": 4.63,
+      "edges": 8,
+      "path": [
+        10,
+        2858,
+        9370,
+        31488,
+        43785,
+        48833,
+        70398,
+        74552,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 20,
+      "distance": 5.42,
+      "edges": 8,
+      "path": [
+        20,
+        2526,
+        8495,
+        13021,
+        15939,
+        20244,
+        36899,
+        74552,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 30,
+      "distance": 4.67,
+      "edges": 7,
+      "path": [
+        30,
+        29698,
+        43059,
+        43482,
+        35741,
+        74494,
+        74552,
+        100
+      ],
+      "status": "ok"
+    }
+  ],
+  "status": "ok",
+  "reverse_s": 1.7624220040000296,
+  "solve_s": 2.4447889099999998,
+  "seconds": 4.207210914000029,
+  "passes": 25,
+  "relaxations": 24981367,
+  "exact": true,
+  "negative_cycle_to_target": null,
+  "vertices_minus_inf": 0,
+  "vertices_unreachable": 0,
+  "negative_cycle_in_graph": null,
+  "global_check_s": 0.4524813610000251,
+  "certificate": {
+    "status": "ok",
+    "violations": 0,
+    "edges_checked": 6099941
+  },
+  "dijkstra": {
+    "status": "ok",
+    "max_difference": 0.0,
+    "seconds": 1.0207924829999797
+  }
+}

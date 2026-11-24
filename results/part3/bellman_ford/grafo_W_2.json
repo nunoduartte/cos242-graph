@@ -1,0 +1,105 @@
+{
+  "graph": "grafo_W_2",
+  "n": 25000,
+  "m": 824964,
+  "directed": true,
+  "min_weight": 0.0,
+  "negative_edges": 0,
+  "target": 100,
+  "load_s": 0.9243530109999938,
+  "memory_mb": 17.77734375,
+  "environment": {
+    "date": "2026-11-24T00:02:09",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/bellman_ford.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--timeout",
+      "3600"
+    ]
+  },
+  "sources": [
+    {
+      "source": 10,
+      "distance": 10.469999999999999,
+      "edges": 11,
+      "path": [
+        10,
+        22754,
+        23713,
+        20821,
+        23161,
+        3591,
+        7214,
+        4808,
+        7704,
+        10831,
+        14144,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 20,
+      "distance": 8.479999999999999,
+      "edges": 6,
+      "path": [
+        20,
+        6795,
+        7737,
+        11988,
+        7094,
+        14144,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 30,
+      "distance": 8.71,
+      "edges": 11,
+      "path": [
+        30,
+        23783,
+        439,
+        502,
+        7344,
+        7842,
+        10419,
+        12598,
+        13685,
+        17695,
+        14144,
+        100
+      ],
+      "status": "ok"
+    }
+  ],
+  "status": "ok",
+  "reverse_s": 0.22388571499999443,
+  "solve_s": 0.28292231200003926,
+  "seconds": 0.5068080270000337,
+  "passes": 24,
+  "relaxations": 2811818,
+  "exact": true,
+  "negative_cycle_to_target": null,
+  "vertices_minus_inf": 0,
+  "vertices_unreachable": 0,
+  "negative_cycle_in_graph": null,
+  "global_check_s": 0.06650721599999088,
+  "certificate": {
+    "status": "ok",
+    "violations": 0,
+    "edges_checked": 824964
+  },
+  "dijkstra": {
+    "status": "ok",
+    "max_difference": 0.0,
+    "seconds": 0.1635946190000368
+  }
+}

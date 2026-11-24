@@ -1,0 +1,183 @@
+{
+  "checks": [
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_1",
+      "algorithm": "bellman-ford",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_1",
+      "algorithm": "floyd-warshall",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_2",
+      "algorithm": "bellman-ford",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_2",
+      "algorithm": "floyd-warshall",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: pares iguais em todas as rodadas do Floyd-Warshall",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "10 rodadas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_3",
+      "algorithm": "bellman-ford",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_3",
+      "algorithm": "floyd-warshall",
+      "ok": true,
+      "detail": "0/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_4",
+      "algorithm": "bellman-ford",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_4",
+      "algorithm": "floyd-warshall",
+      "ok": true,
+      "detail": "0/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_5",
+      "algorithm": "bellman-ford",
+      "ok": true,
+      "detail": "10/10 concluídas"
+    },
+    {
+      "check": "3: média só com rodadas concluídas",
+      "graph": "grafo_W_5",
+      "algorithm": "floyd-warshall",
+      "ok": true,
+      "detail": "0/10 concluídas"
+    },
+    {
+      "check": "2 = 3: matriz 5 x 5 vem de uma rodada do estudo 3",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "estudo 3, rodada 0 (results/part3/benchmark/grafo_W_2.json)"
+    },
+    {
+      "check": "2 x Bellman-Ford: as 25 distâncias recalculadas com Bellman-Ford",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "maior diferença 2.66e-15"
+    },
+    {
+      "check": "2: peso de cada caminho do Floyd-Warshall = distância",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "25 caminhos"
+    },
+    {
+      "check": "1 x 3: ciclo negativo no Bellman-Ford ⇔ no Floyd-Warshall",
+      "graph": "grafo_W_1",
+      "ok": true,
+      "detail": "Bellman-Ford: sim; Floyd-Warshall: sim (10 rodadas)"
+    },
+    {
+      "check": "1 x 3: ciclo negativo no Bellman-Ford ⇔ no Floyd-Warshall",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "Bellman-Ford: não; Floyd-Warshall: não (10 rodadas)"
+    },
+    {
+      "check": "4 = 3: rodadas do Floyd-Warshall reaproveitadas",
+      "graph": "grafo_W_1",
+      "ok": true,
+      "detail": "results/part3/benchmark/grafo_W_1.json"
+    },
+    {
+      "check": "4 x 3: Bellman-Ford todos os pares = Floyd-Warshall do estudo 3",
+      "graph": "grafo_W_2",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: mesma matriz nos dois algoritmos (all_pairs)",
+      "graph": "grafo_W_2_1-1000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: mesma matriz nos dois algoritmos (all_pairs)",
+      "graph": "grafo_W_2_1-2000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: mesma matriz nos dois algoritmos (all_pairs)",
+      "graph": "grafo_W_2_1-3000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: mesma matriz nos dois algoritmos (all_pairs)",
+      "graph": "grafo_W_2_1-4000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: mesma matriz nos dois algoritmos (all_pairs)",
+      "graph": "grafo_W_2_1-500",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: Floyd-Warshall python = numba (mesma matriz)",
+      "graph": "grafo_W_2_1-1000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: Floyd-Warshall python = numba (mesma matriz)",
+      "graph": "grafo_W_2_1-2000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: Floyd-Warshall python = numba (mesma matriz)",
+      "graph": "grafo_W_2_1-3000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: Floyd-Warshall python = numba (mesma matriz)",
+      "graph": "grafo_W_2_1-4000",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    },
+    {
+      "check": "4: Floyd-Warshall python = numba (mesma matriz)",
+      "graph": "grafo_W_2_1-500",
+      "ok": true,
+      "detail": "digest SHA-1 das distâncias"
+    }
+  ],
+  "all_ok": true
+}

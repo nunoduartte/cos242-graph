@@ -1,0 +1,26 @@
+$ python3 -m experiments.part3.bellman_ford --data-dir /home/nuno/Downloads/graphs --timeout 3600
+[00:02:07] grafo_W_1.txt: loading (8 MiB) as directed csr...
+[00:02:07] grafo_W_1.txt: n=25000 m=549953 min weight=-5.0 in 0.6 s, +7 MB
+[00:02:08] grafo_W_1: Bellman-Ford to 100 in 0.19 s (4 passes, 16884 relaxations), negative cycle to the target: True
+[00:02:08] grafo_W_1: graph has a negative cycle: True
+[00:02:08] grafo_W_2.txt: loading (13 MiB) as directed csr...
+[00:02:09] grafo_W_2.txt: n=25000 m=824964 min weight=0.0 in 0.9 s, +18 MB
+[00:02:09] grafo_W_2: Bellman-Ford to 100 in 0.51 s (24 passes, 2811818 relaxations), negative cycle to the target: False
+[00:02:09] grafo_W_2: graph has a negative cycle: False
+[00:02:10] grafo_W_2: validation ok, Dijkstra ok
+[00:02:10] grafo_W_3.txt: loading (98 MiB) as directed csr...
+[00:02:17] grafo_W_3.txt: n=100000 m=6099941 min weight=0.0 in 7.0 s, +81 MB
+[00:02:21] grafo_W_3: Bellman-Ford to 100 in 4.21 s (25 passes, 24981367 relaxations), negative cycle to the target: False
+[00:02:22] grafo_W_3: graph has a negative cycle: False
+[00:02:24] grafo_W_3: validation ok, Dijkstra ok
+[00:02:24] grafo_W_4.txt: loading (555 MiB) as directed csr...
+[00:03:03] grafo_W_4.txt: n=1000000 m=30999978 min weight=0.0 in 39.1 s, +400 MB
+[00:03:42] grafo_W_4: Bellman-Ford to 100 in 36.81 s (36 passes, 148909037 relaxations), negative cycle to the target: False
+[00:03:45] grafo_W_4: graph has a negative cycle: False
+[00:04:05] grafo_W_4: validation ok, Dijkstra ok
+[00:04:05] grafo_W_5.txt: loading (793 MiB) as directed csr...
+[00:05:05] grafo_W_5.txt: n=10000000 m=39999995 min weight=0.0 in 59.9 s, +571 MB
+[00:06:51] grafo_W_5: Bellman-Ford to 100 in 97.69 s (42 passes, 115672017 relaxations), negative cycle to the target: False
+[00:07:02] grafo_W_5: graph has a negative cycle: False
+[00:09:22] grafo_W_5: validation ok, Dijkstra ok
+[00:09:23] done: results/part3/bellman_ford/table.md

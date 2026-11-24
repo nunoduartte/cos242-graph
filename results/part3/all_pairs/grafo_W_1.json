@@ -1,0 +1,695 @@
+{
+  "graph": "grafo_W_1",
+  "n": 25000,
+  "m": 549953,
+  "settings": {
+    "rounds": 10,
+    "directed": true,
+    "run_timeout_s": 3600.0,
+    "budget_s": 14400.0,
+    "fw_workers": 16,
+    "fw_engine": "numba"
+  },
+  "environment": {
+    "date": "2026-11-24T12:14:49",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/all_pairs.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--graphs",
+      "grafo_W_1",
+      "grafo_W_2",
+      "--subgraphs",
+      "--rounds",
+      "10",
+      "--fw-engine",
+      "numba",
+      "--fw-workers",
+      "16",
+      "--fw-from-benchmark",
+      "results/part3/benchmark",
+      "--run-timeout",
+      "3600",
+      "--budget",
+      "14400",
+      "--timeout-for",
+      "grafo_W_2=14400",
+      "--budget-for",
+      "grafo_W_2=86400",
+      "--resume"
+    ]
+  },
+  "runs": {
+    "bellman-ford": [
+      {
+        "round": 0,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6171437369994237,
+        "seconds": 0.029972716998599935,
+        "baseline_rss_mb": 29.1015625,
+        "rss_before_mb": 29.1015625,
+        "rss_after_mb": 31.63671875,
+        "peak_rss_mb": 31.63671875,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7075017690003733
+      },
+      {
+        "round": 1,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6080167359978077,
+        "seconds": 0.029361278997384943,
+        "baseline_rss_mb": 29.03125,
+        "rss_before_mb": 29.03125,
+        "rss_after_mb": 31.56640625,
+        "peak_rss_mb": 31.56640625,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.697704539001279
+      },
+      {
+        "round": 2,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6205007929966087,
+        "seconds": 0.02955796499736607,
+        "baseline_rss_mb": 29.06640625,
+        "rss_before_mb": 29.06640625,
+        "rss_after_mb": 31.6015625,
+        "peak_rss_mb": 31.6015625,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7102434080006788
+      },
+      {
+        "round": 3,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6044654739962425,
+        "seconds": 0.029444081999827176,
+        "baseline_rss_mb": 29.1015625,
+        "rss_before_mb": 29.1015625,
+        "rss_after_mb": 31.63671875,
+        "peak_rss_mb": 31.63671875,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.6942763010010822
+      },
+      {
+        "round": 4,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6132308150044992,
+        "seconds": 0.029527794002206065,
+        "baseline_rss_mb": 29.0703125,
+        "rss_before_mb": 29.0703125,
+        "rss_after_mb": 31.60546875,
+        "peak_rss_mb": 31.60546875,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7027530729974387
+      },
+      {
+        "round": 5,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6177233429989428,
+        "seconds": 0.02962301599472994,
+        "baseline_rss_mb": 29.0234375,
+        "rss_before_mb": 29.0234375,
+        "rss_after_mb": 31.55859375,
+        "peak_rss_mb": 31.55859375,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7079200110019883
+      },
+      {
+        "round": 6,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6101978180013248,
+        "seconds": 0.029993967000336852,
+        "baseline_rss_mb": 29.08984375,
+        "rss_before_mb": 29.08984375,
+        "rss_after_mb": 31.625,
+        "peak_rss_mb": 31.625,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7008425989988609
+      },
+      {
+        "round": 7,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.5979412189990398,
+        "seconds": 0.029413969998131506,
+        "baseline_rss_mb": 29.06640625,
+        "rss_before_mb": 29.06640625,
+        "rss_after_mb": 31.6015625,
+        "peak_rss_mb": 31.6015625,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.6878599179981393
+      },
+      {
+        "round": 8,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6193763310002396,
+        "seconds": 0.029682398999284487,
+        "baseline_rss_mb": 29.046875,
+        "rss_before_mb": 29.046875,
+        "rss_after_mb": 31.58203125,
+        "peak_rss_mb": 31.58203125,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7095261670037871
+      },
+      {
+        "round": 9,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6158151990020997,
+        "seconds": 0.02989073399658082,
+        "baseline_rss_mb": 29.01171875,
+        "rss_before_mb": 29.01171875,
+        "rss_after_mb": 31.546875,
+        "peak_rss_mb": 31.546875,
+        "peak_increase_mb": 2.53515625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 0,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -3.23,
+          "vertices": [
+            12961,
+            22007,
+            12961
+          ]
+        },
+        "stopped_at": 1,
+        "process_s": 0.7064251189949573
+      }
+    ],
+    "floyd-warshall": [
+      {
+        "round": 0,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6294786480002585,
+        "seconds": 0.909427179999966,
+        "baseline_rss_mb": 29.0859375,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.77734375,
+        "rss_after_mb": 7355.15625,
+        "peak_rss_mb": 7355.15625,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.4606142950001413,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 1,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6095091870001852,
+        "seconds": 0.9160939839998719,
+        "baseline_rss_mb": 28.9921875,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.59765625,
+        "rss_after_mb": 7354.9765625,
+        "peak_rss_mb": 7354.9765625,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.4594944430000396,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 2,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6077945679999175,
+        "seconds": 0.9141013859998566,
+        "baseline_rss_mb": 29.15625,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.83984375,
+        "rss_after_mb": 7355.21875,
+        "peak_rss_mb": 7355.21875,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.4412847540002076,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 3,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6272346420000758,
+        "seconds": 0.9109703049998643,
+        "baseline_rss_mb": 29.0859375,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.703125,
+        "rss_after_mb": 7355.08203125,
+        "peak_rss_mb": 7355.08203125,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.460742798999945,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 4,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6024213919999966,
+        "seconds": 0.9068905860003724,
+        "baseline_rss_mb": 29.09375,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.71875,
+        "rss_after_mb": 7355.09375,
+        "peak_rss_mb": 7355.09375,
+        "peak_increase_mb": 7153.375,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.429414129000179,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 5,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6109480290001557,
+        "seconds": 0.9062221270000919,
+        "baseline_rss_mb": 29.11328125,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.74609375,
+        "rss_after_mb": 7355.12109375,
+        "peak_rss_mb": 7355.12109375,
+        "peak_increase_mb": 7153.375,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.433990091000396,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 6,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6135228439998173,
+        "seconds": 0.9070448609995765,
+        "baseline_rss_mb": 29.07421875,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.83203125,
+        "rss_after_mb": 7355.2109375,
+        "peak_rss_mb": 7355.2109375,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.4502797850000206,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 7,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6238933449999422,
+        "seconds": 0.9087076689997957,
+        "baseline_rss_mb": 29.0703125,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.7265625,
+        "rss_after_mb": 7355.10546875,
+        "peak_rss_mb": 7355.10546875,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.456585868000275,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 8,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6200184330000411,
+        "seconds": 0.9099222439999721,
+        "baseline_rss_mb": 29.07421875,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.6875,
+        "rss_after_mb": 7355.06640625,
+        "peak_rss_mb": 7355.06640625,
+        "peak_increase_mb": 7153.37890625,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.449726248999923,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      },
+      {
+        "round": 9,
+        "algorithm": "fw",
+        "n": 25000,
+        "m": 549953,
+        "load_s": 0.6169099419998929,
+        "seconds": 0.9084747019996939,
+        "baseline_rss_mb": 29.0859375,
+        "workers": 16,
+        "engine": "numba",
+        "engine_versions": {
+          "numpy": "2.5.5",
+          "numba": "0.68.1",
+          "llvmlite": "0.50.0"
+        },
+        "rss_before_mb": 201.75,
+        "rss_after_mb": 7355.125,
+        "peak_rss_mb": 7355.125,
+        "peak_increase_mb": 7153.375,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 2,
+        "rows_done": 2,
+        "status": "ok (negative cycle found)",
+        "negative_cycle": {
+          "edges": 2,
+          "weight": -0.55,
+          "vertices": [
+            17332,
+            2,
+            17332
+          ]
+        },
+        "stopped_at": 2,
+        "process_s": 2.4496429260002515,
+        "source": "estudo 3 (results/part3/benchmark/grafo_W_1.json)"
+      }
+    ]
+  },
+  "fw_from_benchmark": {
+    "source": "results/part3/benchmark/grafo_W_1.json",
+    "settings": {
+      "rounds": 10,
+      "target": 100,
+      "directed": true,
+      "run_timeout_s": 3600.0,
+      "budget_s": 14400.0,
+      "fw_workers": 16,
+      "fw_engine": "numba"
+    }
+  }
+}

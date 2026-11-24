@@ -1,0 +1,115 @@
+{
+  "graph": "grafo_W_4",
+  "n": 1000000,
+  "m": 30999978,
+  "directed": true,
+  "min_weight": 0.0,
+  "negative_edges": 0,
+  "target": 100,
+  "load_s": 39.139235970000016,
+  "memory_mb": 399.5859375,
+  "environment": {
+    "date": "2026-11-24T00:03:03",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/bellman_ford.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--timeout",
+      "3600"
+    ]
+  },
+  "sources": [
+    {
+      "source": 10,
+      "distance": 9.040000000000001,
+      "edges": 13,
+      "path": [
+        10,
+        91829,
+        417272,
+        775161,
+        842600,
+        906821,
+        930962,
+        994427,
+        321645,
+        620573,
+        21519,
+        43375,
+        351045,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 20,
+      "distance": 8.83,
+      "edges": 11,
+      "path": [
+        20,
+        775000,
+        859374,
+        148050,
+        161821,
+        274264,
+        315038,
+        749181,
+        51701,
+        83053,
+        351045,
+        100
+      ],
+      "status": "ok"
+    },
+    {
+      "source": 30,
+      "distance": 9.229999999999999,
+      "edges": 14,
+      "path": [
+        30,
+        124400,
+        225008,
+        352692,
+        424754,
+        485462,
+        502763,
+        926624,
+        80691,
+        571210,
+        620573,
+        21519,
+        43375,
+        351045,
+        100
+      ],
+      "status": "ok"
+    }
+  ],
+  "status": "ok",
+  "reverse_s": 11.849130822999996,
+  "solve_s": 24.96290861099999,
+  "seconds": 36.812039433999985,
+  "passes": 36,
+  "relaxations": 148909037,
+  "exact": true,
+  "negative_cycle_to_target": null,
+  "vertices_minus_inf": 0,
+  "vertices_unreachable": 0,
+  "negative_cycle_in_graph": null,
+  "global_check_s": 2.843274132000033,
+  "certificate": {
+    "status": "ok",
+    "violations": 0,
+    "edges_checked": 30999978
+  },
+  "dijkstra": {
+    "status": "ok",
+    "max_difference": 0.0,
+    "seconds": 12.466554450999979
+  }
+}

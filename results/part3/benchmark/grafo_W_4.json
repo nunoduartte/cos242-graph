@@ -1,0 +1,193 @@
+{
+  "graph": "grafo_W_4",
+  "n": 1000000,
+  "m": 30999978,
+  "settings": {
+    "rounds": 10,
+    "target": 100,
+    "directed": true,
+    "run_timeout_s": 3600.0,
+    "budget_s": 14400.0,
+    "fw_workers": 16,
+    "fw_engine": "numba"
+  },
+  "environment": {
+    "date": "2026-11-24T00:10:31",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/benchmark.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--rounds",
+      "10",
+      "--run-timeout",
+      "3600",
+      "--budget",
+      "14400",
+      "--max-memory-gb",
+      "16",
+      "--fw-engine",
+      "numba",
+      "--fw-workers",
+      "16",
+      "--fw-timeout-for",
+      "grafo_W_2=14400",
+      "--fw-budget-for",
+      "grafo_W_2=0",
+      "--resume",
+      "--algorithms",
+      "bellman-ford"
+    ]
+  },
+  "runs": {
+    "bellman-ford": [
+      {
+        "round": 0,
+        "status": "ok",
+        "seconds": 36.42021654200005,
+        "reverse_s": 11.502870745999985,
+        "solve_s": 24.917345796000063,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 1,
+        "status": "ok",
+        "seconds": 36.38736883199999,
+        "reverse_s": 11.58213359299998,
+        "solve_s": 24.805235239000012,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 2,
+        "status": "ok",
+        "seconds": 36.12335662499993,
+        "reverse_s": 11.49346889200001,
+        "solve_s": 24.62988773299992,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 3,
+        "status": "ok",
+        "seconds": 36.31982345400013,
+        "reverse_s": 11.458821986000089,
+        "solve_s": 24.86100146800004,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 4,
+        "status": "ok",
+        "seconds": 36.51814074800018,
+        "reverse_s": 11.631512122000004,
+        "solve_s": 24.886628626000174,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 5,
+        "status": "ok",
+        "seconds": 36.357318134000025,
+        "reverse_s": 11.477497504999974,
+        "solve_s": 24.87982062900005,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 6,
+        "status": "ok",
+        "seconds": 36.66717583100012,
+        "reverse_s": 11.520890173999987,
+        "solve_s": 25.146285657000135,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 7,
+        "status": "ok",
+        "seconds": 36.38170781400004,
+        "reverse_s": 11.472772202999977,
+        "solve_s": 24.90893561100006,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 8,
+        "status": "ok",
+        "seconds": 36.49488626199991,
+        "reverse_s": 11.46621847199981,
+        "solve_s": 25.0286677900001,
+        "passes": 36,
+        "relaxations": 148909037
+      },
+      {
+        "round": 9,
+        "status": "ok",
+        "seconds": 36.545427116000155,
+        "reverse_s": 11.419536430000107,
+        "solve_s": 25.125890686000048,
+        "passes": 36,
+        "relaxations": 148909037
+      }
+    ],
+    "floyd-warshall": [
+      {
+        "round": 0,
+        "status": "refused: n = 1000000 needs 11,175.9 GiB for the matrices (limits 16 GiB, 25000 vertices)",
+        "seconds": null
+      },
+      {
+        "round": 1,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 2,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 3,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 4,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 5,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 6,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 7,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 8,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      },
+      {
+        "round": 9,
+        "status": "not run (previous round: refused)",
+        "seconds": null
+      }
+    ]
+  },
+  "load_s": 38.999205167000014
+}

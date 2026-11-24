@@ -1,0 +1,19 @@
+$ python3 -m experiments.part3.floyd_warshall --data-dir /home/nuno/Downloads/graphs --from-benchmark results/part3/benchmark --fw-engine numba --fw-workers 16 --timeout 14400
+[08:14:10] grafo_W_1: Floyd-Warshall taken from estudo 3, rodada 0 (results/part3/benchmark/grafo_W_1.json)
+[08:14:10] grafo_W_1: computing the same pairs with Bellman-Ford
+[08:14:10] grafo_W_1.txt: loading (8 MiB) as directed csr...
+[08:14:11] grafo_W_1.txt: n=25000 m=549953 min weight=-5.0 in 0.6 s, +7 MB
+[08:14:11] grafo_W_2: Floyd-Warshall taken from estudo 3, rodada 0 (results/part3/benchmark/grafo_W_2.json)
+[08:14:11] grafo_W_3: não executado: n = 100000 exige 111.8 GiB nas duas matrizes (limites: 16 GiB, 25000 vértices)
+[08:14:11] grafo_W_3: computing the same pairs with Bellman-Ford
+[08:14:11] grafo_W_3.txt: loading (98 MiB) as directed csr...
+[08:14:18] grafo_W_3.txt: n=100000 m=6099941 min weight=0.0 in 7.0 s, +78 MB
+[08:14:33] grafo_W_4: não executado: n = 1000000 exige 11,175.9 GiB nas duas matrizes (limites: 16 GiB, 25000 vértices)
+[08:14:33] grafo_W_4: computing the same pairs with Bellman-Ford
+[08:14:33] grafo_W_4.txt: loading (555 MiB) as directed csr...
+[08:15:13] grafo_W_4.txt: n=1000000 m=30999978 min weight=0.0 in 39.4 s, +397 MB
+[08:17:19] grafo_W_5: não executado: n = 10000000 exige 1,117,587.3 GiB nas duas matrizes (limites: 16 GiB, 25000 vértices)
+[08:17:19] grafo_W_5: computing the same pairs with Bellman-Ford
+[08:17:19] grafo_W_5.txt: loading (793 MiB) as directed csr...
+[08:18:17] grafo_W_5.txt: n=10000000 m=39999995 min weight=0.0 in 58.2 s, +570 MB
+[08:24:57] done: results/part3/floyd_warshall/table.md

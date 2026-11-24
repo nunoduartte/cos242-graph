@@ -1,0 +1,8 @@
+[08:14:10] W_2 benchmark finished; starting the chain
+[08:14:10] start study2
+[08:24:57] end study2 (exit 0)
+[08:24:57] start study4-sub
+[12:13:10] end study4-sub (exit 0)
+[12:13:10] start study4-sub-numba
+[12:14:49] end study4-sub-numba (exit 0)
+[12:14:49] start study4-official

@@ -1,0 +1,62 @@
+$ python3 -m experiments.part3.benchmark --data-dir /home/nuno/Downloads/graphs --rounds 10 --run-timeout 3600 --budget 14400 --max-memory-gb 16 --fw-engine numba --fw-workers 16 --fw-timeout-for grafo_W_2=14400 --fw-budget-for grafo_W_2=0 --resume --algorithms bellman-ford
+[00:09:33] grafo_W_1.txt: loading (8 MiB) as directed csr...
+[00:09:33] grafo_W_1.txt: n=25000 m=549953 min weight=-5.0 in 0.6 s, +7 MB
+[00:09:34] grafo_W_1 bellman-ford round 0: ok (negative cycle found) 0.190 s
+[00:09:34] grafo_W_1 bellman-ford round 1: ok (negative cycle found) 0.190 s
+[00:09:34] grafo_W_1 bellman-ford round 2: ok (negative cycle found) 0.192 s
+[00:09:34] grafo_W_1 bellman-ford round 3: ok (negative cycle found) 0.190 s
+[00:09:34] grafo_W_1 bellman-ford round 4: ok (negative cycle found) 0.192 s
+[00:09:35] grafo_W_1 bellman-ford round 5: ok (negative cycle found) 0.189 s
+[00:09:35] grafo_W_1 bellman-ford round 6: ok (negative cycle found) 0.191 s
+[00:09:35] grafo_W_1 bellman-ford round 7: ok (negative cycle found) 0.191 s
+[00:09:35] grafo_W_1 bellman-ford round 8: ok (negative cycle found) 0.193 s
+[00:09:35] grafo_W_1 bellman-ford round 9: ok (negative cycle found) 0.193 s
+[00:09:35] grafo_W_2.txt: loading (13 MiB) as directed csr...
+[00:09:36] grafo_W_2.txt: n=25000 m=824964 min weight=0.0 in 0.9 s, +22 MB
+[00:09:37] grafo_W_2 bellman-ford round 0: ok 0.512 s
+[00:09:37] grafo_W_2 bellman-ford round 1: ok 0.506 s
+[00:09:38] grafo_W_2 bellman-ford round 2: ok 0.514 s
+[00:09:38] grafo_W_2 bellman-ford round 3: ok 0.514 s
+[00:09:39] grafo_W_2 bellman-ford round 4: ok 0.513 s
+[00:09:39] grafo_W_2 bellman-ford round 5: ok 0.515 s
+[00:09:40] grafo_W_2 bellman-ford round 6: ok 0.513 s
+[00:09:40] grafo_W_2 bellman-ford round 7: ok 0.508 s
+[00:09:41] grafo_W_2 bellman-ford round 8: ok 0.512 s
+[00:09:41] grafo_W_2 bellman-ford round 9: ok 0.511 s
+[00:09:41] grafo_W_3.txt: loading (98 MiB) as directed csr...
+[00:09:48] grafo_W_3.txt: n=100000 m=6099941 min weight=0.0 in 7.0 s, +71 MB
+[00:09:53] grafo_W_3 bellman-ford round 0: ok 4.234 s
+[00:09:57] grafo_W_3 bellman-ford round 1: ok 4.204 s
+[00:10:01] grafo_W_3 bellman-ford round 2: ok 4.173 s
+[00:10:05] grafo_W_3 bellman-ford round 3: ok 4.226 s
+[00:10:10] grafo_W_3 bellman-ford round 4: ok 4.249 s
+[00:10:14] grafo_W_3 bellman-ford round 5: ok 4.243 s
+[00:10:18] grafo_W_3 bellman-ford round 6: ok 4.201 s
+[00:10:22] grafo_W_3 bellman-ford round 7: ok 4.132 s
+[00:10:26] grafo_W_3 bellman-ford round 8: ok 4.227 s
+[00:10:31] grafo_W_3 bellman-ford round 9: ok 4.160 s
+[00:10:31] grafo_W_4.txt: loading (555 MiB) as directed csr...
+[00:11:10] grafo_W_4.txt: n=1000000 m=30999978 min weight=0.0 in 39.0 s, +360 MB
+[00:11:46] grafo_W_4 bellman-ford round 0: ok 36.420 s
+[00:12:23] grafo_W_4 bellman-ford round 1: ok 36.387 s
+[00:12:59] grafo_W_4 bellman-ford round 2: ok 36.123 s
+[00:13:35] grafo_W_4 bellman-ford round 3: ok 36.320 s
+[00:14:12] grafo_W_4 bellman-ford round 4: ok 36.518 s
+[00:14:48] grafo_W_4 bellman-ford round 5: ok 36.357 s
+[00:15:25] grafo_W_4 bellman-ford round 6: ok 36.667 s
+[00:16:01] grafo_W_4 bellman-ford round 7: ok 36.382 s
+[00:16:38] grafo_W_4 bellman-ford round 8: ok 36.495 s
+[00:17:15] grafo_W_4 bellman-ford round 9: ok 36.545 s
+[00:17:15] grafo_W_5.txt: loading (793 MiB) as directed csr...
+[00:18:13] grafo_W_5.txt: n=10000000 m=39999995 min weight=0.0 in 58.5 s, +571 MB
+[00:19:51] grafo_W_5 bellman-ford round 0: ok 96.899 s
+[00:21:29] grafo_W_5 bellman-ford round 1: ok 97.185 s
+[00:23:07] grafo_W_5 bellman-ford round 2: ok 96.857 s
+[00:24:45] grafo_W_5 bellman-ford round 3: ok 97.081 s
+[00:26:24] grafo_W_5 bellman-ford round 4: ok 98.360 s
+[00:28:02] grafo_W_5 bellman-ford round 5: ok 97.151 s
+[00:29:40] grafo_W_5 bellman-ford round 6: ok 97.282 s
+[00:31:18] grafo_W_5 bellman-ford round 7: ok 97.227 s
+[00:32:56] grafo_W_5 bellman-ford round 8: ok 97.286 s
+[00:34:34] grafo_W_5 bellman-ford round 9: ok 97.544 s
+[00:34:34] done: results/part3/benchmark/summary.md

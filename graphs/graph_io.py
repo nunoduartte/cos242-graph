@@ -7,10 +7,13 @@ from .graph import Graph
 
 class GraphReader:
     @staticmethod
-    def read(path: str, representation: str = "list", weighted: Optional[bool] = None) -> Graph:
+    def read(path: str, representation: str = "list", weighted: Optional[bool] = None,
+             directed: bool = False) -> Graph:
         """First line: number of vertices; then one edge per line, "u v" or "u v w".
 
         `weighted=None` detects it from the first edge line (3 columns = weighted).
+        With `directed=True` each line "u v w" is the edge u -> v only (the order
+        of the two ids on the line gives the direction).
         The file is streamed line by line, never held in memory as a whole.
         """
         with open(path) as f:
@@ -19,7 +22,7 @@ class GraphReader:
             if weighted is None:
                 weighted = first is not None and len(first.split()) >= 3
             edges = GraphReader._edges(f, first, weighted, path)
-            return Graph(n, edges, representation, weighted)
+            return Graph(n, edges, representation, weighted, directed)
 
     @staticmethod
     def _parse_n(line: str, path: str) -> int:

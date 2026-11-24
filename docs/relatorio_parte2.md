@@ -11,7 +11,7 @@ vértices) e a rede de colaboração. Todos os números deste relatório vêm do
 `results/part2/`; nada foi reexecutado para escrevê-lo.
 
 Código-fonte da biblioteca (pacote `graphs/`), dos estudos de caso (`experiments/`) e dos testes
-(`tests/`): github.com/nunoduartte/cos242-graph.
+(`tests/`): https://github.com/nunoduartte/cos242-graph
 
 ## 2. Decisões de projeto e implementação
 
@@ -61,9 +61,17 @@ depois de construí-la.
 | W_6 | 11,26 (20) | 10,67 (22) | 11,31 (11) | 9,60 (12) | 10,72 (20) | ok | vetor > 300 s |
 | W_7 | 93,47 (33) | 95,08 (32) | 100,69 (46) | 95,77 (34) | 82,25 (36) | ok | vetor > 300 s |
 
-Entre parênteses, o número de arestas do caminho; os 25 caminhos completos estão em
-`results/part2/shortest_paths/table.md` (ex.: W_3, 10 → 56663 → 84437 → 19040 → 82510 → 17622 →
-94992 → 70948 → 19878 → 50).
+Entre parênteses, o número de arestas do caminho. Os caminhos completos do W_3 estão abaixo; os dos
+outros grafos (até 46 arestas, com rótulos de até 8 dígitos) não cabem nas 5 páginas e estão em
+`results/part2/shortest_paths/table.md` no repositório.
+
+| Destino | Distância | Caminho mínimo no W_3 |
+|---|---|---|
+| 20 | 0,80 | 10 → 2858 → 35293 → 3905 → 24445 → 39345 → 61279 → 41321 → 70540 → 26049 → 84450 → 68904 → 87862 → 86778 → 27694 → 16608 → 86355 → 15760 → 20 |
+| 30 | 0,89 | 10 → 2858 → 35293 → 96094 → 85187 → 53177 → 64898 → 87087 → 77935 → 42304 → 78071 → 93985 → 27642 → 26151 → 30 |
+| 40 | 0,84 | 10 → 2858 → 35293 → 3905 → 24445 → 86286 → 14327 → 19697 → 15930 → 46307 → 40 |
+| 50 | 0,87 | 10 → 56663 → 84437 → 19040 → 82510 → 17622 → 94992 → 70948 → 19878 → 50 |
+| 60 | 0,97 | 10 → 2858 → 35293 → 3905 → 24445 → 89584 → 2874 → 99253 → 66532 → 33719 → 96654 → 75728 → 79865 → 74717 → 59399 → 8718 → 60 |
 
 ### 4.2 Tabela A – Carga dos grafos (medido)
 
@@ -180,15 +188,3 @@ representação que carregou os grafos de 10⁷ e 5·10⁷ vértices (1,0 a 1,8 
 pico de construção maior, e a lista continua competitiva em grafos pequenos. **Limitações:** Python
 puro (9,6 min por origem no W_7), amostras parciais do heap nos grafos grandes, memória de Dijkstra e
 pico da CSR medidos só no W_3, e caminhos mínimos com pesos negativos não implementados.
-
-### Checklist de aderência ao enunciado
-
-| Requisito | Situação |
-|---|---|
-| Grafos com pesos reais (entrada com 3 colunas) | atendido (§2) |
-| Distância e caminhos mínimos para todos; aviso para peso negativo | atendido (`ShortestPaths`, `NegativeWeightError`) |
-| Dijkstra com vetor e heap sem duplicar o algoritmo; heap com `decrease_key` eficiente | atendido (`PriorityQueue`, O(log n)) |
-| Estudo 1: 10 → 20, 30, 40, 50, 60 em tabela | atendido (§4.1, com certificado) |
-| Estudo 2: tempo médio, k = 100, vetor × heap | atendido, com amostras parciais (Tabela B) |
-| Rede de colaboração: 5 pesquisadores | atendido (§4.6) |
-| Até 5 páginas e URL do código | atendido; o código ainda precisa ser enviado ao GitHub |

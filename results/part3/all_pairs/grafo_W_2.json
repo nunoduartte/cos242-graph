@@ -1,0 +1,69 @@
+{
+  "graph": "grafo_W_2",
+  "n": 25000,
+  "m": 824964,
+  "settings": {
+    "rounds": 10,
+    "directed": true,
+    "run_timeout_s": 14400.0,
+    "budget_s": 86400.0,
+    "fw_workers": 16,
+    "fw_engine": "numba"
+  },
+  "environment": {
+    "date": "2026-11-24T12:14:56",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/all_pairs.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--graphs",
+      "grafo_W_1",
+      "grafo_W_2",
+      "--subgraphs",
+      "--rounds",
+      "10",
+      "--fw-engine",
+      "numba",
+      "--fw-workers",
+      "16",
+      "--fw-from-benchmark",
+      "results/part3/benchmark",
+      "--run-timeout",
+      "3600",
+      "--budget",
+      "14400",
+      "--timeout-for",
+      "grafo_W_2=14400",
+      "--budget-for",
+      "grafo_W_2=86400",
+      "--resume"
+    ]
+  },
+  "runs": {
+    "bellman-ford": [
+      {
+        "round": 0,
+        "algorithm": "bf-all",
+        "n": 25000,
+        "m": 824964,
+        "load_s": 0.9199957320015528,
+        "seconds": 7600.741461161997,
+        "baseline_rss_mb": 32.22265625,
+        "rss_before_mb": 32.22265625,
+        "rss_after_mb": 7195.671875,
+        "peak_rss_mb": 7195.671875,
+        "peak_increase_mb": 7163.44921875,
+        "peak_method": "VmHWM after clear_refs",
+        "progress": 25000,
+        "status": "ok",
+        "digest": "ce8ca40adb77217cadecb79eb119e8e711633b16",
+        "process_s": 7752.241348605996
+      }
+    ]
+  }
+}

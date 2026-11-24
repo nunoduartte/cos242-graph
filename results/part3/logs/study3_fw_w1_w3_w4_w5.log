@@ -1,0 +1,42 @@
+$ python3 -m experiments.part3.benchmark --data-dir /home/nuno/Downloads/graphs --rounds 10 --run-timeout 3600 --budget 14400 --max-memory-gb 16 --fw-engine numba --fw-workers 16 --fw-timeout-for grafo_W_2=14400 --fw-budget-for grafo_W_2=0 --resume --algorithms floyd-warshall --graphs grafo_W_1 grafo_W_3 grafo_W_4 grafo_W_5
+[00:34:53] grafo_W_1 floyd-warshall round 0: ok (negative cycle found) 0.909 s
+[00:34:56] grafo_W_1 floyd-warshall round 1: ok (negative cycle found) 0.916 s
+[00:34:58] grafo_W_1 floyd-warshall round 2: ok (negative cycle found) 0.914 s
+[00:35:01] grafo_W_1 floyd-warshall round 3: ok (negative cycle found) 0.911 s
+[00:35:03] grafo_W_1 floyd-warshall round 4: ok (negative cycle found) 0.907 s
+[00:35:05] grafo_W_1 floyd-warshall round 5: ok (negative cycle found) 0.906 s
+[00:35:08] grafo_W_1 floyd-warshall round 6: ok (negative cycle found) 0.907 s
+[00:35:10] grafo_W_1 floyd-warshall round 7: ok (negative cycle found) 0.909 s
+[00:35:13] grafo_W_1 floyd-warshall round 8: ok (negative cycle found) 0.910 s
+[00:35:15] grafo_W_1 floyd-warshall round 9: ok (negative cycle found) 0.908 s
+[00:35:15] grafo_W_3 floyd-warshall round 0: refused: n = 100000 needs 111.8 GiB for the matrices (limits 16 GiB, 25000 vertices)
+[00:35:15] grafo_W_3 floyd-warshall round 1: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 2: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 3: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 4: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 5: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 6: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 7: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 8: not run (previous round: refused)
+[00:35:15] grafo_W_3 floyd-warshall round 9: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 0: refused: n = 1000000 needs 11,175.9 GiB for the matrices (limits 16 GiB, 25000 vertices)
+[00:35:15] grafo_W_4 floyd-warshall round 1: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 2: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 3: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 4: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 5: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 6: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 7: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 8: not run (previous round: refused)
+[00:35:15] grafo_W_4 floyd-warshall round 9: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 0: refused: n = 10000000 needs 1,117,587.3 GiB for the matrices (limits 16 GiB, 25000 vertices)
+[00:35:15] grafo_W_5 floyd-warshall round 1: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 2: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 3: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 4: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 5: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 6: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 7: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 8: not run (previous round: refused)
+[00:35:15] grafo_W_5 floyd-warshall round 9: not run (previous round: refused)
+[00:35:15] done: results/part3/benchmark/summary.md

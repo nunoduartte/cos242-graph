@@ -1,0 +1,101 @@
+graph,algorithm,round,status,seconds,reverse_s,solve_s,passes,interrupted_after_s,progress,rows_done,workers,engine,peak_increase_mb
+grafo_W_1,bellman-ford,0,ok (negative cycle found),0.19034023200003958,0.1523159849999729,0.03802424700006668,4,,,,,,
+grafo_W_1,bellman-ford,1,ok (negative cycle found),0.18994505099999515,0.1517494390000138,0.03819561199998134,4,,,,,,
+grafo_W_1,bellman-ford,2,ok (negative cycle found),0.19170345899999575,0.15407107199996517,0.037632387000030576,4,,,,,,
+grafo_W_1,bellman-ford,3,ok (negative cycle found),0.1896173819999376,0.1520079159998886,0.037609466000049,4,,,,,,
+grafo_W_1,bellman-ford,4,ok (negative cycle found),0.19162942699995256,0.15392558799999279,0.03770383899995977,4,,,,,,
+grafo_W_1,bellman-ford,5,ok (negative cycle found),0.18912599899999805,0.15152483300005315,0.0376011659999449,4,,,,,,
+grafo_W_1,bellman-ford,6,ok (negative cycle found),0.1905950190000567,0.15304424500004643,0.03755077400001028,4,,,,,,
+grafo_W_1,bellman-ford,7,ok (negative cycle found),0.1909437379999872,0.15347698599998694,0.03746675200000027,4,,,,,,
+grafo_W_1,bellman-ford,8,ok (negative cycle found),0.19266916499998388,0.15470240900003773,0.037966755999946145,4,,,,,,
+grafo_W_1,bellman-ford,9,ok (negative cycle found),0.19262988399998449,0.1542630870000039,0.03836679699998058,4,,,,,,
+grafo_W_1,fw,0,ok (negative cycle found),0.909427179999966,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,1,ok (negative cycle found),0.9160939839998719,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,2,ok (negative cycle found),0.9141013859998566,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,3,ok (negative cycle found),0.9109703049998643,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,4,ok (negative cycle found),0.9068905860003724,,,,,2,2,16,numba,7153.375
+grafo_W_1,fw,5,ok (negative cycle found),0.9062221270000919,,,,,2,2,16,numba,7153.375
+grafo_W_1,fw,6,ok (negative cycle found),0.9070448609995765,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,7,ok (negative cycle found),0.9087076689997957,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,8,ok (negative cycle found),0.9099222439999721,,,,,2,2,16,numba,7153.37890625
+grafo_W_1,fw,9,ok (negative cycle found),0.9084747019996939,,,,,2,2,16,numba,7153.375
+grafo_W_2,bellman-ford,0,ok,0.5120203960000254,0.22434684900008506,0.2876735469999403,24,,,,,,
+grafo_W_2,bellman-ford,1,ok,0.50607177400002,0.22675825500004976,0.27931351899997026,24,,,,,,
+grafo_W_2,bellman-ford,2,ok,0.5135734680000041,0.22756479700001364,0.2860086709999905,24,,,,,,
+grafo_W_2,bellman-ford,3,ok,0.514012790000038,0.22841286000004857,0.2855999299999894,24,,,,,,
+grafo_W_2,bellman-ford,4,ok,0.5128492979999919,0.22783545400000094,0.28501384399999097,24,,,,,,
+grafo_W_2,bellman-ford,5,ok,0.5145508950000703,0.2326606560000073,0.28189023900006305,24,,,,,,
+grafo_W_2,bellman-ford,6,ok,0.5133692719999772,0.22626238099996954,0.28710689100000764,24,,,,,,
+grafo_W_2,bellman-ford,7,ok,0.5081505700001117,0.22569880600008219,0.28245176400002947,24,,,,,,
+grafo_W_2,bellman-ford,8,ok,0.5120825080000486,0.22600114500005475,0.28608136299999387,24,,,,,,
+grafo_W_2,bellman-ford,9,ok,0.5107354610000812,0.226539119999984,0.28419634100009716,24,,,,,,
+grafo_W_2,fw,0,ok,2760.2460929170006,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,1,ok,2735.376816369,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,2,ok,2731.1390641830003,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,3,ok,2733.2680553699993,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,4,ok,2731.2341607630005,,,,,25000,400565299,16,numba,7153.375
+grafo_W_2,fw,5,ok,2734.6055609039995,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,6,ok,2731.5064358790005,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,7,ok,2733.9209721160005,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_2,fw,8,ok,2734.594719829998,,,,,25000,400565299,16,numba,7153.375
+grafo_W_2,fw,9,ok,2733.989494501002,,,,,25000,400565299,16,numba,7153.37890625
+grafo_W_3,bellman-ford,0,ok,4.233748430000105,1.7210477730000093,2.512700657000096,25,,,,,,
+grafo_W_3,bellman-ford,1,ok,4.204221386000086,1.7328580959999726,2.471363290000113,25,,,,,,
+grafo_W_3,bellman-ford,2,ok,4.173126051000054,1.745656355000051,2.427469696000003,25,,,,,,
+grafo_W_3,bellman-ford,3,ok,4.2264146129999745,1.7149343180000187,2.5114802949999557,25,,,,,,
+grafo_W_3,bellman-ford,4,ok,4.248516418999998,1.720724472000029,2.527791946999969,25,,,,,,
+grafo_W_3,bellman-ford,5,ok,4.243102545000056,1.7165401740001016,2.5265623709999545,25,,,,,,
+grafo_W_3,bellman-ford,6,ok,4.200636383999949,1.7001987319999898,2.5004376519999596,25,,,,,,
+grafo_W_3,bellman-ford,7,ok,4.132229327999994,1.7218264130000307,2.4104029149999633,25,,,,,,
+grafo_W_3,bellman-ford,8,ok,4.227414382000006,1.7380702929999643,2.489344089000042,25,,,,,,
+grafo_W_3,bellman-ford,9,ok,4.159927011999912,1.7376334109999334,2.4222936009999785,25,,,,,,
+grafo_W_3,floyd-warshall,0,"refused: n = 100000 needs 111.8 GiB for the matrices (limits 16 GiB, 25000 vertices)",,,,,,,,,,
+grafo_W_3,floyd-warshall,1,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,2,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,3,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,4,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,5,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,6,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,7,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,8,not run (previous round: refused),,,,,,,,,,
+grafo_W_3,floyd-warshall,9,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,bellman-ford,0,ok,36.42021654200005,11.502870745999985,24.917345796000063,36,,,,,,
+grafo_W_4,bellman-ford,1,ok,36.38736883199999,11.58213359299998,24.805235239000012,36,,,,,,
+grafo_W_4,bellman-ford,2,ok,36.12335662499993,11.49346889200001,24.62988773299992,36,,,,,,
+grafo_W_4,bellman-ford,3,ok,36.31982345400013,11.458821986000089,24.86100146800004,36,,,,,,
+grafo_W_4,bellman-ford,4,ok,36.51814074800018,11.631512122000004,24.886628626000174,36,,,,,,
+grafo_W_4,bellman-ford,5,ok,36.357318134000025,11.477497504999974,24.87982062900005,36,,,,,,
+grafo_W_4,bellman-ford,6,ok,36.66717583100012,11.520890173999987,25.146285657000135,36,,,,,,
+grafo_W_4,bellman-ford,7,ok,36.38170781400004,11.472772202999977,24.90893561100006,36,,,,,,
+grafo_W_4,bellman-ford,8,ok,36.49488626199991,11.46621847199981,25.0286677900001,36,,,,,,
+grafo_W_4,bellman-ford,9,ok,36.545427116000155,11.419536430000107,25.125890686000048,36,,,,,,
+grafo_W_4,floyd-warshall,0,"refused: n = 1000000 needs 11,175.9 GiB for the matrices (limits 16 GiB, 25000 vertices)",,,,,,,,,,
+grafo_W_4,floyd-warshall,1,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,2,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,3,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,4,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,5,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,6,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,7,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,8,not run (previous round: refused),,,,,,,,,,
+grafo_W_4,floyd-warshall,9,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,bellman-ford,0,ok,96.89933602799988,21.98433573599982,74.91500029200006,42,,,,,,
+grafo_W_5,bellman-ford,1,ok,97.18500480300008,22.121559683999976,75.06344511900011,42,,,,,,
+grafo_W_5,bellman-ford,2,ok,96.85688456000003,22.02082399899996,74.83606056100007,42,,,,,,
+grafo_W_5,bellman-ford,3,ok,97.080530253,22.127303353000116,74.95322689999989,42,,,,,,
+grafo_W_5,bellman-ford,4,ok,98.35951889500006,22.23495187499998,76.12456702000009,42,,,,,,
+grafo_W_5,bellman-ford,5,ok,97.15132551499983,22.03052135600001,75.12080415899982,42,,,,,,
+grafo_W_5,bellman-ford,6,ok,97.28199449199997,22.029290500999878,75.25270399100009,42,,,,,,
+grafo_W_5,bellman-ford,7,ok,97.22673954499987,22.083483299999898,75.14325624499998,42,,,,,,
+grafo_W_5,bellman-ford,8,ok,97.286194411,22.044597049000004,75.241597362,42,,,,,,
+grafo_W_5,bellman-ford,9,ok,97.54391603299973,21.97228379299986,75.57163223999987,42,,,,,,
+grafo_W_5,floyd-warshall,0,"refused: n = 10000000 needs 1,117,587.3 GiB for the matrices (limits 16 GiB, 25000 vertices)",,,,,,,,,,
+grafo_W_5,floyd-warshall,1,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,2,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,3,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,4,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,5,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,6,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,7,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,8,not run (previous round: refused),,,,,,,,,,
+grafo_W_5,floyd-warshall,9,not run (previous round: refused),,,,,,,,,,

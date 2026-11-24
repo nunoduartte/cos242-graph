@@ -1,0 +1,57 @@
+$ python3 -m experiments.part3.all_pairs --data-dir /home/nuno/Downloads/graphs --graphs --rounds 10 --subgraphs grafo_W_2:500,1000,2000,3000,4000 --algorithms floyd-warshall --fw-engine numba --fw-workers 16 --out results/part3/all_pairs_numba --resume
+[12:13:10] results/part3/all_pairs_numba/subgraphs/grafo_W_2_1-500.txt: 307 edges
+[12:13:10] results/part3/all_pairs_numba/subgraphs/grafo_W_2_1-1000.txt: 1291 edges
+[12:13:10] results/part3/all_pairs_numba/subgraphs/grafo_W_2_1-2000.txt: 5360 edges
+[12:13:11] results/part3/all_pairs_numba/subgraphs/grafo_W_2_1-3000.txt: 11973 edges
+[12:13:11] results/part3/all_pairs_numba/subgraphs/grafo_W_2_1-4000.txt: 21171 edges
+[12:13:12] grafo_W_2_1-500 floyd-warshall round 0: ok 0.087 s
+[12:13:13] grafo_W_2_1-500 floyd-warshall round 1: ok 0.016 s
+[12:13:14] grafo_W_2_1-500 floyd-warshall round 2: ok 0.015 s
+[12:13:15] grafo_W_2_1-500 floyd-warshall round 3: ok 0.379 s
+[12:13:16] grafo_W_2_1-500 floyd-warshall round 4: ok 0.013 s
+[12:13:17] grafo_W_2_1-500 floyd-warshall round 5: ok 0.060 s
+[12:13:18] grafo_W_2_1-500 floyd-warshall round 6: ok 0.017 s
+[12:13:19] grafo_W_2_1-500 floyd-warshall round 7: ok 0.029 s
+[12:13:20] grafo_W_2_1-500 floyd-warshall round 8: ok 0.052 s
+[12:13:21] grafo_W_2_1-500 floyd-warshall round 9: ok 0.013 s
+[12:13:21] grafo_W_2_1-1000 floyd-warshall round 0: ok 0.023 s
+[12:13:22] grafo_W_2_1-1000 floyd-warshall round 1: ok 0.055 s
+[12:13:23] grafo_W_2_1-1000 floyd-warshall round 2: ok 0.023 s
+[12:13:24] grafo_W_2_1-1000 floyd-warshall round 3: ok 0.023 s
+[12:13:25] grafo_W_2_1-1000 floyd-warshall round 4: ok 0.025 s
+[12:13:26] grafo_W_2_1-1000 floyd-warshall round 5: ok 0.025 s
+[12:13:27] grafo_W_2_1-1000 floyd-warshall round 6: ok 0.023 s
+[12:13:28] grafo_W_2_1-1000 floyd-warshall round 7: ok 0.023 s
+[12:13:29] grafo_W_2_1-1000 floyd-warshall round 8: ok 0.084 s
+[12:13:30] grafo_W_2_1-1000 floyd-warshall round 9: ok 0.023 s
+[12:13:31] grafo_W_2_1-2000 floyd-warshall round 0: ok 0.165 s
+[12:13:32] grafo_W_2_1-2000 floyd-warshall round 1: ok 0.163 s
+[12:13:33] grafo_W_2_1-2000 floyd-warshall round 2: ok 0.164 s
+[12:13:34] grafo_W_2_1-2000 floyd-warshall round 3: ok 0.133 s
+[12:13:35] grafo_W_2_1-2000 floyd-warshall round 4: ok 0.192 s
+[12:13:36] grafo_W_2_1-2000 floyd-warshall round 5: ok 0.131 s
+[12:13:37] grafo_W_2_1-2000 floyd-warshall round 6: ok 0.131 s
+[12:13:39] grafo_W_2_1-2000 floyd-warshall round 7: ok 0.206 s
+[12:13:40] grafo_W_2_1-2000 floyd-warshall round 8: ok 0.175 s
+[12:13:41] grafo_W_2_1-2000 floyd-warshall round 9: ok 0.273 s
+[12:13:44] grafo_W_2_1-3000 floyd-warshall round 0: ok 1.028 s
+[12:13:46] grafo_W_2_1-3000 floyd-warshall round 1: ok 1.022 s
+[12:13:48] grafo_W_2_1-3000 floyd-warshall round 2: ok 1.233 s
+[12:13:50] grafo_W_2_1-3000 floyd-warshall round 3: ok 1.036 s
+[12:13:52] grafo_W_2_1-3000 floyd-warshall round 4: ok 1.021 s
+[12:13:54] grafo_W_2_1-3000 floyd-warshall round 5: ok 1.028 s
+[12:13:56] grafo_W_2_1-3000 floyd-warshall round 6: ok 1.031 s
+[12:13:58] grafo_W_2_1-3000 floyd-warshall round 7: ok 1.028 s
+[12:14:00] grafo_W_2_1-3000 floyd-warshall round 8: ok 1.030 s
+[12:14:02] grafo_W_2_1-3000 floyd-warshall round 9: ok 1.032 s
+[12:14:09] grafo_W_2_1-4000 floyd-warshall round 0: ok 3.423 s
+[12:14:14] grafo_W_2_1-4000 floyd-warshall round 1: ok 3.430 s
+[12:14:18] grafo_W_2_1-4000 floyd-warshall round 2: ok 3.530 s
+[12:14:22] grafo_W_2_1-4000 floyd-warshall round 3: ok 3.418 s
+[12:14:27] grafo_W_2_1-4000 floyd-warshall round 4: ok 3.589 s
+[12:14:31] grafo_W_2_1-4000 floyd-warshall round 5: ok 3.497 s
+[12:14:36] grafo_W_2_1-4000 floyd-warshall round 6: ok 3.541 s
+[12:14:40] grafo_W_2_1-4000 floyd-warshall round 7: ok 3.529 s
+[12:14:45] grafo_W_2_1-4000 floyd-warshall round 8: ok 3.899 s
+[12:14:49] grafo_W_2_1-4000 floyd-warshall round 9: ok 3.417 s
+[12:14:49] done: results/part3/all_pairs_numba/summary.md

@@ -1,0 +1,234 @@
+{
+  "graph": "grafo_W_1",
+  "n": 25000,
+  "vertices": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "directed": true,
+  "matrix_gib": 6.985478114336729,
+  "timeout_s": 14400.0,
+  "fw_workers": 16,
+  "fw_engine": "numba",
+  "environment": {
+    "date": "2026-11-24T08:14:10",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/floyd_warshall.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--from-benchmark",
+      "results/part3/benchmark",
+      "--fw-engine",
+      "numba",
+      "--fw-workers",
+      "16",
+      "--timeout",
+      "14400"
+    ]
+  },
+  "fw": {
+    "round": 0,
+    "algorithm": "fw",
+    "n": 25000,
+    "m": 549953,
+    "load_s": 0.6294786480002585,
+    "seconds": 0.909427179999966,
+    "baseline_rss_mb": 29.0859375,
+    "workers": 16,
+    "engine": "numba",
+    "engine_versions": {
+      "numpy": "2.5.5",
+      "numba": "0.68.1",
+      "llvmlite": "0.50.0"
+    },
+    "rss_before_mb": 201.77734375,
+    "rss_after_mb": 7355.15625,
+    "peak_rss_mb": 7355.15625,
+    "peak_increase_mb": 7153.37890625,
+    "peak_method": "VmHWM after clear_refs",
+    "progress": 2,
+    "rows_done": 2,
+    "status": "negative cycle",
+    "negative_cycle": {
+      "edges": 2,
+      "weight": -0.55,
+      "vertices": [
+        17332,
+        2,
+        17332
+      ]
+    },
+    "stopped_at": 2,
+    "process_s": 2.4606142950001413,
+    "source": "estudo 3, rodada 0 (results/part3/benchmark/grafo_W_1.json)",
+    "rounds_with_same_pairs": null,
+    "benchmark_settings": {
+      "rounds": 10,
+      "target": 100,
+      "directed": true,
+      "run_timeout_s": 3600.0,
+      "budget_s": 14400.0,
+      "fw_workers": 16,
+      "fw_engine": "numba"
+    }
+  },
+  "bellman_ford": {
+    "pairs": {
+      "10": {
+        "10": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "20": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "30": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "40": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "50": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        }
+      },
+      "20": {
+        "10": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "20": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "30": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "40": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "50": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        }
+      },
+      "30": {
+        "10": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "20": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "30": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "40": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "50": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        }
+      },
+      "40": {
+        "10": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "20": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "30": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "40": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "50": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        }
+      },
+      "50": {
+        "10": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "20": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "30": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "40": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        },
+        "50": {
+          "distance": "-inf",
+          "path": null,
+          "exact": false
+        }
+      }
+    },
+    "seconds": 0.3339516510022804,
+    "negative_cycles": [
+      {
+        "edges": 2,
+        "weight": -3.28,
+        "vertices": [
+          10,
+          17826,
+          10
+        ]
+      }
+    ]
+  }
+}

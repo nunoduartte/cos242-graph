@@ -1,0 +1,77 @@
+{
+  "graph": "grafo_W_2",
+  "n": 25000,
+  "m": 824964,
+  "workers": 16,
+  "engine": "numba",
+  "engine_versions": {
+    "numpy": "2.5.5",
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  },
+  "budget_s": 600.0,
+  "load_s": 0.9058957450001799,
+  "matrix_gib": 6.985478114336729,
+  "environment": {
+    "date": "2026-11-23T09:44:01",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/fw_calibrate.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--graph",
+      "grafo_W_2",
+      "--engine",
+      "numba",
+      "--workers",
+      "16",
+      "--budget",
+      "600",
+      "--out",
+      "results/part3/calibration"
+    ]
+  },
+  "work_count_s": 42.05228925400024,
+  "total_rows": 400565299,
+  "total_cells": 10014533040299,
+  "rows_fraction_of_dense": 0.6409301156046242,
+  "rss_before_mb": 167.4296875,
+  "rss_after_mb": 171.453125,
+  "peak_rss_mb": 7323.28125,
+  "peak_increase_mb": 7155.8515625,
+  "peak_method": "VmHWM after clear_refs",
+  "measured": {
+    "elapsed_s": 600.0376545089998,
+    "stages_done": 10093,
+    "rows_done": 75159035,
+    "work_fraction": 0.18763241645652387,
+    "first_stage_s": 1.0350167029996555,
+    "rows_match_exact_count": true,
+    "row_mismatches": 0,
+    "finished": false,
+    "negative_cycle": false
+  },
+  "model": {
+    "window_stages": [
+      8244,
+      10093
+    ],
+    "window_rows": 26586844,
+    "seconds_per_stage": 0.0,
+    "seconds_per_row": 7.97280581438854e-06,
+    "ns_per_cell": 0.3188994765964777,
+    "window_rows_per_stage": 14371.267027027026
+  },
+  "estimate": {
+    "round_s": 3194.4386081666516,
+    "round_h": 0.8873440578240699,
+    "rounds": 10,
+    "all_rounds_h": 8.8734405782407,
+    "remaining_s": 2594.400953657652,
+    "kind": "estimate: measured time + fitted cost x exact remaining rows"
+  }
+}

@@ -3,6 +3,10 @@
 Every representation can store edge weights. An unweighted representation
 reports weight 1.0 for every edge, so weighted algorithms also run on the
 graphs of Part 1.
+
+A directed representation stores only u -> v for add_edge(u, v): neighbors(u)
+are then the out-neighbors of u and degree(u) is the out-degree. An undirected
+one stores both directions, as in Parts 1 and 2.
 """
 from abc import ABC, abstractmethod
 from array import array
@@ -16,13 +20,15 @@ INF = float("inf")
 class Representation(ABC):
     """Common contract for the data structures that store adjacency."""
 
-    def __init__(self, n: int, weighted: bool = False):
+    def __init__(self, n: int, weighted: bool = False, directed: bool = False):
         self.n = n
         self.weighted = weighted
+        self.directed = directed
 
     @abstractmethod
     def add_edge(self, u: int, v: int, w: float = 1.0) -> bool:
-        """Insert {u, v} with weight w; return True if the edge was actually added."""
+        """Insert u -> v (and v -> u if undirected) with weight w; return True if
+        the edge was actually added."""
 
     @abstractmethod
     def neighbors(self, u: int) -> Iterable[int]:
@@ -44,22 +50,29 @@ class Representation(ABC):
         """Called after loading; returns how many duplicate edges were dropped."""
         return 0
 
+    def transposed(self) -> Optional["Representation"]:
+        """The same edges reversed, built directly; None = no fast path (Graph.reversed
+        then re-adds every edge)."""
+        return None
+
 
 class AdjacencyList(Representation):
     """O(n + m) memory. Repeated edges are removed in finalize() (sort + unique);
     for weighted graphs the lightest copy of a repeated edge is kept."""
 
-    def __init__(self, n: int, weighted: bool = False):
-        super().__init__(n, weighted)
+    def __init__(self, n: int, weighted: bool = False, directed: bool = False):
+        super().__init__(n, weighted, directed)
         self._adj = [array("i") for _ in range(n + 1)]
         self._w = [array("d") for _ in range(n + 1)] if weighted else None
 
     def add_edge(self, u, v, w=1.0):
         self._adj[u].append(v)
-        self._adj[v].append(u)
         if self._w is not None:
             self._w[u].append(w)
-            self._w[v].append(w)
+        if not self.directed:
+            self._adj[v].append(u)
+            if self._w is not None:
+                self._w[v].append(w)
         return True
 
     def neighbors(self, u):
@@ -94,27 +107,34 @@ class AdjacencyList(Representation):
                 self._w[u] = array("d", (best[v] for v in unique))
             removed += len(self._adj[u]) - len(unique)
             self._adj[u] = unique
-        return removed // 2
+        return removed if self.directed else removed // 2
 
 
 class AdjacencyMatrix(Representation):
     """O(n^2) memory: one byte per cell (+ 8 bytes per cell when weighted).
     Repeated edges keep the lightest weight."""
 
-    def __init__(self, n: int, weighted: bool = False):
-        super().__init__(n, weighted)
+    def __init__(self, n: int, weighted: bool = False, directed: bool = False):
+        super().__init__(n, weighted, directed)
         self._adj = [bytearray(n + 1) for _ in range(n + 1)]
         self._w = [array("d", bytes(8 * (n + 1))) for _ in range(n + 1)] if weighted else None
 
     def add_edge(self, u, v, w=1.0):
         if self._adj[u][v]:
             if self._w is not None and w < self._w[u][v]:
-                self._w[u][v] = self._w[v][u] = w
+                self._set_weight(u, v, w)
             return False
-        self._adj[u][v] = self._adj[v][u] = 1
+        self._adj[u][v] = 1
+        if not self.directed:
+            self._adj[v][u] = 1
         if self._w is not None:
-            self._w[u][v] = self._w[v][u] = w
+            self._set_weight(u, v, w)
         return True
+
+    def _set_weight(self, u, v, w):
+        self._w[u][v] = w
+        if not self.directed:
+            self._w[v][u] = w
 
     def neighbors(self, u):
         row = self._adj[u]
@@ -142,14 +162,15 @@ class CompactAdjacency(Representation):
     """Compressed sparse rows (CSR): the neighbors of u are targets[offsets[u]:offsets[u+1]].
 
     Three flat arrays instead of one Python object per vertex: 4 bytes per
-    neighbor entry (+ 8 for its weight) and 8 per vertex. This is what lets the
+    neighbor entry (+ 8 for its weight) and 8 per vertex. An undirected edge
+    takes two entries, a directed one a single entry. This is what lets the
     50-million-vertex graphs fit in memory. Edges are buffered by add_edge() and
     the rows are built once, by counting sort, in finalize(); the graph is
     read-only afterwards. Rows are not sorted, so weight() scans the row: O(deg).
     """
 
-    def __init__(self, n: int, weighted: bool = False):
-        super().__init__(n, weighted)
+    def __init__(self, n: int, weighted: bool = False, directed: bool = False):
+        super().__init__(n, weighted, directed)
         self._src, self._dst = array("i"), array("i")
         self._wbuf = array("d") if weighted else None
         self._offsets = array("q", bytes(8 * (n + 2)))
@@ -187,13 +208,21 @@ class CompactAdjacency(Representation):
         count = array("q", bytes(8 * (n + 2)))  # count[u + 1] = degree(u)
         for u in src:
             count[u + 1] += 1
-        for v in dst:
-            count[v + 1] += 1
+        if not self.directed:
+            for v in dst:
+                count[v + 1] += 1
         offsets = array("q", accumulate(count))
         pos = array("q", offsets)
         targets = array("i", bytes(4 * offsets[-1]))
         weights = array("d", bytes(8 * offsets[-1])) if wbuf is not None else None
-        if weights is None:
+        if self.directed:
+            if weights is None:
+                for u, v in zip(src, dst):
+                    i = pos[u]; targets[i] = v; pos[u] = i + 1
+            else:
+                for u, v, w in zip(src, dst, wbuf):
+                    i = pos[u]; targets[i] = v; weights[i] = w; pos[u] = i + 1
+        elif weights is None:
             for u, v in zip(src, dst):
                 i = pos[u]; targets[i] = v; pos[u] = i + 1
                 i = pos[v]; targets[i] = u; pos[v] = i + 1
@@ -204,6 +233,31 @@ class CompactAdjacency(Representation):
         self._src = self._dst = self._wbuf = None  # free the edge buffers
         self._offsets, self._targets, self._weights = offsets, targets, weights
         return self._drop_duplicates()
+
+    def transposed(self):
+        """Counting sort of the entries by target: O(n + m), no per-edge add_edge call.
+        The rows have no repeated entries after finalize(), so neither does the result."""
+        n, offsets, targets, weights = self.n, self._offsets, self._targets, self._weights
+        count = array("q", bytes(8 * (n + 2)))
+        for v in targets:
+            count[v + 1] += 1
+        new_offsets = array("q", accumulate(count))
+        pos = array("q", new_offsets)
+        new_targets = array("i", bytes(4 * len(targets)))
+        new_weights = array("d", bytes(8 * len(targets))) if weights is not None else None
+        for u in range(1, n + 1):
+            for i in range(offsets[u], offsets[u + 1]):
+                v = targets[i]
+                j = pos[v]
+                new_targets[j] = u
+                if new_weights is not None:
+                    new_weights[j] = weights[i]
+                pos[v] = j + 1
+        t = CompactAdjacency.__new__(CompactAdjacency)
+        Representation.__init__(t, n, self.weighted, self.directed)
+        t._src = t._dst = t._wbuf = None
+        t._offsets, t._targets, t._weights = new_offsets, new_targets, new_weights
+        return t
 
     def _drop_duplicates(self) -> int:
         offsets, targets = self._offsets, self._targets
@@ -236,16 +290,17 @@ class CompactAdjacency(Representation):
             new_offsets[u + 1] = len(new_targets)
         removed = len(targets) - len(new_targets)
         self._offsets, self._targets, self._weights = new_offsets, new_targets, new_weights
-        return removed // 2
+        return removed if self.directed else removed // 2
 
 
 REPRESENTATIONS = {"list": AdjacencyList, "matrix": AdjacencyMatrix, "csr": CompactAdjacency}
 
 
-def create_representation(name: str, n: int, weighted: bool = False) -> Representation:
+def create_representation(name: str, n: int, weighted: bool = False,
+                          directed: bool = False) -> Representation:
     """Factory: maps the user's choice to the concrete class."""
     try:
         cls = REPRESENTATIONS[name]
     except KeyError:
         raise ValueError(f"invalid representation {name!r}; use {list(REPRESENTATIONS)}")
-    return cls(n, weighted)
+    return cls(n, weighted, directed)

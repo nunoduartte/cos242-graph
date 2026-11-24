@@ -1,7 +1,8 @@
-"""Single entry point for the Part 2 tests and case studies (no make needed).
+"""Single entry point for the tests and case studies of Parts 2 and 3 (no make needed).
 
-  python3 run.py test                 unit + integration tests
-  python3 run.py test-unit            Part 1 regression, weighted graphs, queues, Dijkstra
+  python3 run.py test                 unit + integration tests (Parts 1, 2 and 3)
+  python3 run.py test-unit            Part 1 regression, weighted and directed graphs, Dijkstra,
+                                      Bellman-Ford, Floyd-Warshall
   python3 run.py test-integration     experiment scripts end to end on small generated files
   python3 run.py shortest-paths [...] case study A   (extra args go to the script)
   python3 run.py benchmark [...]      case study B
@@ -16,16 +17,34 @@
 
 Defaults (override with the script options, see `python3 -m experiments.<study> --help`):
 data in ../T2 (or $DATA_DIR), k=100, seed 42, --budget 1200, --run-timeout 900.
+
+Part 3 (data in ../T3 or $DATA_DIR_P3, or --data-dir; graphs read as directed; results/part3/):
+  python3 run.py part3-bellman-ford [...]     study 1: Bellman-Ford from 10, 20, 30 to 100
+  python3 run.py part3-floyd-warshall [...]   study 2: Floyd-Warshall among {10, 20, 30, 40, 50}
+  python3 run.py part3-benchmark [...]        study 3: mean of 10 rounds, Bellman-Ford and Floyd-Warshall
+  python3 run.py part3-all-pairs [...]        study 4: all-pairs Bellman-Ford x Floyd-Warshall, 10 rounds
+  python3 run.py part3-fw-calibrate [...]     short Floyd-Warshall run + exact work count -> time estimate
+  python3 run.py part3-report                 results/part3/report/ (tables and chart)
+  python3 run.py part3-consistency            cross-checks of the four studies -> results/part3/consistency.md
+  python3 run.py part3-studies [...]          1, 2, 3, 4 and the report, in this order (extra args go
+                                              to every study, e.g. --data-dir ~/Downloads/graphs)
 """
 import subprocess
 import sys
 
-UNIT = ["tests.test_part1_regression", "tests.test_weighted_graph", "tests.test_dijkstra"]
-INTEGRATION = ["tests.test_integration", "tests.test_memory", "tests.test_report"]
+UNIT = ["tests.test_part1_regression", "tests.test_weighted_graph", "tests.test_dijkstra",
+        "tests.test_directed", "tests.test_bellman_ford", "tests.test_floyd_warshall"]
+INTEGRATION = ["tests.test_integration", "tests.test_memory", "tests.test_report", "tests.test_part3_experiments"]
 STUDIES = {"shortest-paths": "experiments.shortest_paths", "benchmark": "experiments.benchmark",
            "collaboration": "experiments.collaboration", "report": "experiments.report",
            "memory-dijkstra": "experiments.memory_dijkstra",
-           "memory-representations": "experiments.memory_representations"}
+           "memory-representations": "experiments.memory_representations",
+           "part3-bellman-ford": "experiments.part3.bellman_ford",
+           "part3-floyd-warshall": "experiments.part3.floyd_warshall",
+           "part3-benchmark": "experiments.part3.benchmark", "part3-all-pairs": "experiments.part3.all_pairs",
+           "part3-fw-calibrate": "experiments.part3.fw_calibrate", "part3-report": "experiments.part3.report",
+           "part3-consistency": "experiments.part3.consistency"}
+PART3_STUDIES = ["part3-bellman-ford", "part3-floyd-warshall", "part3-benchmark", "part3-all-pairs"]
 
 
 def run(*args) -> int:
@@ -55,6 +74,12 @@ def main(argv):
             if code:
                 return code
         return 0
+    if cmd == "part3-studies":
+        for study in PART3_STUDIES:
+            code = run("-m", STUDIES[study], *rest)
+            if code:
+                return code
+        return run("-m", STUDIES["part3-report"])
     if cmd == "pipeline":
         for args in (["-m", STUDIES["benchmark"], "--resume", *rest],
                      ["-m", STUDIES["shortest-paths"], "--validate-timeout", "300"],

@@ -1,0 +1,77 @@
+{
+  "graph": "grafo_W_1",
+  "n": 25000,
+  "m": 549953,
+  "directed": true,
+  "min_weight": -5.0,
+  "negative_edges": 4998,
+  "target": 100,
+  "load_s": 0.6031559259999995,
+  "memory_mb": 7.00390625,
+  "environment": {
+    "date": "2026-11-24T00:02:07",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/bellman_ford.py",
+      "--data-dir",
+      "/home/nuno/Downloads/graphs",
+      "--timeout",
+      "3600"
+    ]
+  },
+  "sources": [
+    {
+      "source": 10,
+      "distance": "-inf",
+      "edges": null,
+      "path": null,
+      "status": "ciclo negativo no caminho (distância −∞)"
+    },
+    {
+      "source": 20,
+      "distance": "-inf",
+      "edges": null,
+      "path": null,
+      "status": "ciclo negativo no caminho (distância −∞)"
+    },
+    {
+      "source": 30,
+      "distance": "-inf",
+      "edges": null,
+      "path": null,
+      "status": "ciclo negativo no caminho (distância −∞)"
+    }
+  ],
+  "status": "ok",
+  "reverse_s": 0.15310219200000574,
+  "solve_s": 0.03875383899998042,
+  "seconds": 0.19185603099998616,
+  "passes": 4,
+  "relaxations": 16884,
+  "exact": false,
+  "negative_cycle_to_target": {
+    "edges": 2,
+    "weight": -2.61,
+    "vertices": [
+      21005,
+      10756,
+      21005
+    ]
+  },
+  "vertices_minus_inf": 25000,
+  "vertices_unreachable": 0,
+  "negative_cycle_in_graph": {
+    "edges": 2,
+    "weight": -2.63,
+    "vertices": [
+      10663,
+      17332,
+      10663
+    ]
+  },
+  "global_check_s": 0.058365615000013804
+}

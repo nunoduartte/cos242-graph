@@ -1,0 +1,19 @@
+{
+  "studies": {
+    "bellman_ford": "ok",
+    "floyd_warshall": "ok",
+    "benchmark": "ok",
+    "all_pairs": "ok"
+  },
+  "environment": {
+    "date": "2026-11-24T15:00:00",
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+    "ram_gib": 30.3,
+    "argv": [
+      "/home/nuno/projects/cos242-graph/experiments/part3/report.py"
+    ]
+  }
+}

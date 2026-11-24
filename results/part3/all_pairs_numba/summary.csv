@@ -1,0 +1,6 @@
+graph,n,m,digests_equal,bellman-ford_rounds,bellman-ford_finished,bellman-ford_mean_s,bellman-ford_stdev_s,bellman-ford_outcome,bellman-ford_note,bellman-ford_extrapolated_s,floyd-warshall_rounds,floyd-warshall_finished,floyd-warshall_mean_s,floyd-warshall_stdev_s,floyd-warshall_outcome,floyd-warshall_note,floyd-warshall_extrapolated_s,fw_over_bf
+grafo_W_2_1-1000,1000,1291,,,,,,,,,10,10,0.03252054839977063,0.020538954314238685,ok,,,
+grafo_W_2_1-2000,2000,5360,,,,,,,,,10,10,0.17325966830030665,0.04338556266175171,ok,,,
+grafo_W_2_1-3000,3000,11973,,,,,,,,,10,10,1.04895305030077,0.06498740472224632,ok,,,
+grafo_W_2_1-4000,4000,21171,,,,,,,,,10,10,3.5271993508977175,0.14437873285513372,ok,,,
+grafo_W_2_1-500,500,307,,,,,,,,,10,10,0.06821008849874488,0.11216587188764769,ok,,,
